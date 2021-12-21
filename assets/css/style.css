@@ -1048,7 +1048,7 @@ button.bg-danger:hover {
 }
 
 .card {
-	box-shadow: 0px 2px 8px rgb(183 183 183 / 25%);
+	box-shadow: 0px 3px 6px #00000029;;
 	margin-bottom: 1.875rem;
 	border: 0;
 }
@@ -3125,7 +3125,7 @@ html.menu-opened body {
 }
 .know-more-btn {
 	font-size: 20px;
-	color: #3A4965;
+	color: #3A4965!important;
 	background-color: #F0F2FF;
 	box-shadow: 0px 3px 3px #00000029;
 	border-radius: 29px;
@@ -3188,7 +3188,7 @@ html.menu-opened body {
 	margin-bottom: 20px;
 }
 .explore-our-product-slider .card {
-	min-height: 505px;
+	min-height: 430px;
     padding: 10px;
     border-radius: 30px;
 }
@@ -3205,6 +3205,154 @@ html.menu-opened body {
 }
 .cloud-card-content img {
 	margin: 0 auto;
+}
+
+/*-------------------
+	smartsheet
+------------------**/
+.smartsheet-banner {
+	background-color: #15B2D5;
+	background-image: none;
+}
+.smartsheet-banner .banner-sub-text {
+	color: #96EFFF;
+}
+.process-section .card-body h3 {
+	font-size: 40px;
+	color: #617AB9;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+.process-section .card-body p {
+	color: #000000;
+	font-size: 30px;
+	line-height: 35px;
+}
+.process-section {
+	padding-top: 90px;
+}
+.smartsheet-intergration {
+	padding: 90px 0;
+	background: #F0F2FF;
+	margin-bottom: 45px;
+}
+.smartsheet-intergration .media-body h5 {
+	font-size: 30px;
+}
+.smartsheet-intergration .media {
+	margin-bottom: 50px;
+}
+.no-code-ui-section {
+	background: #fff;
+	padding: 45px 0;
+}
+.no-code-ui-section h2 {
+	font-size: 40px;
+	color: #617AB9;
+	margin-bottom: 50px;
+	font-weight: 300;
+}
+.no-code-ui-section p {
+	font-size: 30px;
+	color: #000;
+	margin-bottom: 40px;
+}
+.smartsheet-intergration .section-header h2 {
+	margin-bottom: 50px;
+}
+/*---------------------------------
+	Cloud Integration
+------------------------------------*/
+.cloud-integration-banner {
+	background: #50D4EB;
+	background-image: none;
+}
+.cloud-integration-banner h2 {
+	font-size: 40px;
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+.cloud-integration-banner h4 {
+	font-size: 60px;
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+.banner-section {
+	padding: 90px 0;
+}
+.cloud-text-section {
+	padding: 60px 0;
+}
+.cloud-text-section p {
+	font-size: 36px;
+	font-weight: 500;
+	color: #000;
+	line-height: 40px;
+}
+.integration-section .card-body p {
+	color: #000000;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*-----------------------
+	Careers
+-------------------*/
+.careers-section {
+	background-image: none;
+	background-color: #ccc;
+}
+.careers-text-section .card .card-title {
+	font-size: 30px;
+	color: #000000;
+	font-weight: 600;
+}
+.careers-text-section .card p {
+	font-size: 24px;
+	color: #000000;
+	font-weight: 500;
+}
+.job-search .form-control {
+	height: 90px;
+	border-radius: 45px;
+	font-weight: 300;
+	font-size: 28px;
+}
+/*-------------------------
+	Mulisoft
+-----------------------------*/
+.mulisoft-content h3 {
+	font-size: 36px;
+	color: #3A4965;
+	margin-bottom: 30px;
+	line-height: 42px;
+}
+.mulisoft-content p {
+	font-size: 24px;
+	color: #000;
+	line-height: 28px;
+}
+.mulisoft-card {
+	border-radius: 30px;
+}
+/*------------------------
+	Salesforce
+----------------------------*/
+.salesforce-banner .banner-inner-text {
+	margin-bottom: 39px;
+	color: #3A4965;
+	font-size: 20px;
+	line-height: 23px;
+}
+.section-header .inner-text {
+	font-size: 30px;
+	line-height: 35px;
+	color: #3A4965;
+}
+.sales-text-section .media-body p {
+	color: #3A4965;
+	font-size: 24px;
 }
 /*-----------------
 	40. Responsive
@@ -3502,6 +3650,16 @@ html.menu-opened body {
 	.banner-section {
 		min-height: 560px;
 	}
+	.process-section .card-body p {
+		font-size: 28px;
+		line-height: 30px;
+	}
+	.smartsheet-intergration .media-body h5 {
+		font-size: 28px;
+	}
+	.no-code-ui-section p {
+		font-size: 28px;
+	}
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -3739,6 +3897,21 @@ html.menu-opened body {
 	}
 	.testimonial-slide .card {
 		min-height: 460px;
+	}
+	.careers-text-section .card .card-title {
+		font-size: 26px;
+	}
+	.careers-text-section .card p {
+		font-size: 20px;
+	}
+	.card {
+		margin-bottom: 15px;
+	}
+	.cloud-text-section {
+		padding: 40px 0;
+	}
+	.job-search .form-control {
+		height: 60px;
 	}
 }
 
@@ -4043,7 +4216,7 @@ html.menu-opened body {
 		margin-bottom: 0.9375rem;
 	}
 	.card-body {
-		padding: 1.25rem;
+		padding: 1.20rem;
 	}
 	.card-header {
 		padding: .75rem 1.25rem;
@@ -4173,6 +4346,23 @@ html.menu-opened body {
 	.testimonial-slide .card {
 		min-height: 415px;
 	}
+	.careers-text-section .card .card-title {
+		font-size: 1.25rem;
+	}
+	.careers-text-section .card p {
+		font-size: 16px;
+	}
+	.cloud-text-section {
+		padding: 20px 0;
+	}
+	.process-section .card-body h3 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.process-section .card-body p {
+		font-size: 16px;
+	}
+
 }
 
 @media only screen and (max-width:479px) {
