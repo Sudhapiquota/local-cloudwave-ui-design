@@ -3354,6 +3354,22 @@ html.menu-opened body {
 	color: #3A4965;
 	font-size: 24px;
 }
+.sales-text-section .media h3 {
+	color: #3A4965;
+}
+.sales-text-section .card {
+	border-radius: 30px;
+}
+.sales-text-section {
+	padding: 45px 0;
+}
+.sales-text-section .know-more-btn {
+	margin-top: 50px;
+}
+.cloud-card-content p {
+	color: #3A4965;
+	font-size: 24px;
+}
 /*-----------------
 	40. Responsive
 -----------------------*/
