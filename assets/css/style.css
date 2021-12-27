@@ -3388,7 +3388,10 @@ html.menu-opened body {
 	line-height: 35px;
 }
 .benifits-section {
-	padding: 45px 0;
+	padding: 40px 0;
+}
+.sandbox-card {
+	border-radius: 30px;
 }
 /*-----------------
 	Responsive
