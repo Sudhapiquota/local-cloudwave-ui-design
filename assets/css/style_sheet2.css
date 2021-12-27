@@ -13,8 +13,21 @@ color: #617AB9;
 	width: 100%;
 	height: auto;
 }
-
-
+/* xcavate */
+.ios-img{
+	width: 53%;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.m-top{
+	margin-top: 100px;
+}
+.irame{
+	width: 600px;
+	height: 300px;
+}
 
 @media only screen and (max-width: 991.98px) {
 	.banner-content {
