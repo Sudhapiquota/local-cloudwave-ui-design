@@ -1156,7 +1156,9 @@ button.bg-danger:hover {
 .form-group {
 	margin-bottom: 1.25rem;
 }
-
+.text-blue {
+	color: #3A4965!important;
+}
 
 /*-----------------
 	4. Avatar
@@ -3142,6 +3144,7 @@ html.menu-opened body {
 	color: #3A4965;
 	font-weight: 300;
 	margin-bottom: 40px;
+	line-height: 57px;
 }
 .section-header h2 span {
 	color: #617AB9;
@@ -3370,8 +3373,28 @@ html.menu-opened body {
 	color: #3A4965;
 	font-size: 24px;
 }
+
 /*-----------------
-	40. Responsive
+	Azure
+-----------------------*/
+
+.benifits-section h3 {
+	font-size: 30px;
+	font-weight: 600;
+}
+.benifits-section p {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 35px;
+}
+.benifits-section {
+	padding: 40px 0;
+}
+.sandbox-card {
+	border-radius: 30px;
+}
+/*-----------------
+	Responsive
 -----------------------*/
 
 @media only screen and (min-width: 1680px) {
