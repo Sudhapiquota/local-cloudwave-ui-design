@@ -3393,6 +3393,25 @@ html.menu-opened body {
 .sandbox-card {
 	border-radius: 30px;
 }
+.text-light-blue {
+	color:#617AB9
+}
+/*-----------------
+	contact us
+-----------------------*/
+.contact-us input {
+	height: 79px;
+	border: 1px solid #D3D2CE;
+	border-radius: 0;
+}
+.contact-us .form-group label {
+	font-size: 30px;
+	color: #3A4965;
+}
+.contact-us textarea {
+	border: 1px solid #D3D2CE;
+	border-radius: 0;
+}
 /*-----------------
 	Responsive
 -----------------------*/
