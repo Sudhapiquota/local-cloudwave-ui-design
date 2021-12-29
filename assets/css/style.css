@@ -2913,8 +2913,8 @@ html.menu-opened body {
     position: absolute;
     top: 50%;
     display: block;
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -3313,7 +3313,7 @@ html.menu-opened body {
 	font-weight: 500;
 }
 .job-search .form-control {
-	height: 90px;
+	height: 60px;
 	border-radius: 45px;
 	font-weight: 300;
 	font-size: 28px;
