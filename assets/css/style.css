@@ -3187,7 +3187,7 @@ html.menu-opened body {
 	margin-bottom: 20px;
 }
 .explore-our-product-slider .card {
-	min-height: 430px;
+	min-height: 370px;
     padding: 10px;
     border-radius: 30px;
 }
@@ -3399,6 +3399,8 @@ html.menu-opened body {
 	height: 79px;
 	border: 1px solid #D3D2CE;
 	border-radius: 0;
+	font-size: 20px;
+	font-weight: 300;
 }
 .contact-us .form-group label {
 	font-size: 30px;
@@ -3407,6 +3409,15 @@ html.menu-opened body {
 .contact-us textarea {
 	border: 1px solid #D3D2CE;
 	border-radius: 0;
+}
+.error {
+	color: red;
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+#success {
+	color: #26af48;
 }
 /*-----------------
 	Responsive
