@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Contact Us-</title>
+		<title>Contact Us</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		
 		<!-- Favicons -->
@@ -125,7 +125,7 @@
 				<div class="container-fluid">
 					<div class="row align-items-center">
 						<div class="col-md-12 col-12 d-flex justify-content-center">
-							<a href="">Get in touch with our Experts</a>
+							<a href="contact-us.html">Get in touch with our Experts</a>
 						</div>
 					</div>
 				</div>
@@ -162,43 +162,40 @@
                                 </div>
                             </div>
                         </div>
-                        <form>
+                        <form action="mail.php" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Name</label>
-                                        <input type="name" class="form-control">
+                                        <input type="name" name="name" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Business Email</label>
-                                        <input type="email" class="form-control">
+                                        <input type="email" name="email" class="form-control">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Contact Number</label>
-                                        <input type="number" class="form-control">
+                                        <input type="number" name="number" class="form-control">
                                     </div>
                                 </div>
-                                
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Message</label>
-                                        <textarea class="form-control" rows="6"></textarea>
+                                        <textarea class="form-control" name="message" rows="6"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12 text-right">
-                                    <a href="" class="btn know-more-btn mt-5">Submit</a>
+                                    <button type="submit" class="btn know-more-btn mt-5">Submit</button>
                                 </div>
-                                
                             </div>
                         </form>
                     </div>
                 </div>
                 <!-- /text section -->
-
              
 			</div>		
 			<!-- /Page Content -->
