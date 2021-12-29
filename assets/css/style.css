@@ -3409,6 +3409,8 @@ html.menu-opened body {
 .contact-us textarea {
 	border: 1px solid #D3D2CE;
 	border-radius: 0;
+	font-size: 20px;
+	font-weight: 300;
 }
 .error {
 	color: red;
