@@ -61,6 +61,15 @@ color: #617AB9;
 	width: 80%;
 	text-align: center;
 }
+
+/* cloud-integration-service */
+.para{
+	font-weight: bold;
+    margin-top: 50px;
+    color: black;
+	font-size: 25px;
+}
+
 @media only screen and (max-width: 991.98px) {
 	.banner-content {
 	    padding: 20px;
