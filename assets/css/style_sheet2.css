@@ -17,18 +17,50 @@ color: #617AB9;
 .ios-img{
 	width: 53%;
 }
+
+.App-store img{
+		width: 70%;
+}
+
+.App-store{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.h3-margin{
+	margin-bottom: 0 !important;
+}
+
+.margin-bottom{
+	margin-bottom: 10px;
+}
+
+.xcavate-logo-margin{
+	margin-left: 35px;
+}
+
 .flex{
-	display: flex;
-	justify-content: space-between;
+	display: flex;	
 }
 .m-top{
-	margin-top: 100px;
+	margin-top: 10px;
 }
 .irame{
-	width: 600px;
+	width: 500px;
 	height: 300px;
 }
 
+.left_content{
+	padding-left: 10%;
+}
+
+.left_content p{
+	text-align: justify;
+}
+.xcavate_img{
+	width: 80%;
+	text-align: center;
+}
 @media only screen and (max-width: 991.98px) {
 	.banner-content {
 	    padding: 20px;
