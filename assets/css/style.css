@@ -2453,6 +2453,11 @@ button.bg-danger:hover {
 	color: #fff;
 }
 
+.copyright-text ul {
+	width: 20%;
+margin-left: 84%;
+}
+
 /*-----------------
 	13. Mobile Menu
 -----------------------*/
@@ -2815,9 +2820,9 @@ html.menu-opened body {
 	margin-bottom: 30px;
 }
 .copyright-text ul {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+	width: 20%;
+    /*float: right;
+	align-items: center;*/
 }
 /*--------------------
 	slick slider
@@ -3330,15 +3335,16 @@ html.menu-opened body {
 	Mulisoft
 -----------------------------*/
 .mulisoft-content h3 {
-	font-size: 36px;
+	font-size: 30px;
 	color: #3A4965;
 	margin-bottom: 30px;
 	line-height: 42px;
 }
 .mulisoft-content p {
-	font-size: 24px;
+	font-size: 22px;
 	color: #000;
 	line-height: 28px;
+	text-align: justify;
 }
 .mulisoft-card {
 	border-radius: 30px;
@@ -3718,7 +3724,7 @@ html.menu-opened body {
 		font-size: 16px;
 	}
 	.explore-our-product-slider .card {
-		min-height: 400px;
+		min-height: 410px;
 	}
 	.explore-our-product-section {
 		padding: 0 0 40px 0;
@@ -3737,7 +3743,7 @@ html.menu-opened body {
 		line-height: 30px;
 	}
 	.smartsheet-intergration .media-body h5 {
-		font-size: 28px;
+		font-size: 18px;
 	}
 	.no-code-ui-section p {
 		font-size: 28px;
@@ -3959,9 +3965,9 @@ html.menu-opened body {
 	.cloud-slider p {
 		font-size: 16px;
 	}
-	.cloud-slider-cards .card {
+	/* .cloud-slider-cards .card {
 		min-height: 515px;
-	}
+	} */
 	.section-header p {
 		font-size: 16px;
 	}
@@ -3971,9 +3977,9 @@ html.menu-opened body {
 	.cloud-card-content h3 {
 		font-size: 20px;
 	}
-	.explore-our-product-slider .card {
+	/* .explore-our-product-slider .card {
 		min-height: 385px;
-	}
+	} */
 	.testimonial-slide img {
 		height: 60px;
 	}
@@ -4260,9 +4266,9 @@ html.menu-opened body {
 	    margin: 0 0 30px;
 	    text-align: center;
 	}
-	.cloud-slider-cards .card {
+	/* .cloud-slider-cards .card {
 		min-height: 468px;
-	}
+	} */
 	
 }
 
@@ -4425,10 +4431,13 @@ html.menu-opened body {
 	.cloud-slider-cards .card .card-body img {
 		height: auto;
 	}
+	.card-height{
+
+	}
 	.testimonial-slide .card {
 		min-height: 415px;
 	}
-	 {
+	 
 		/* font-size: 1.25rem; */
 	}
 	.careers-text-section .card p {
@@ -4453,7 +4462,7 @@ html.menu-opened body {
 		padding: 30px 15px;
 	}
 	.copyright-text img {
-		width:20px;
+		width:20px;		
 	}
 	.copyright-text ul {
 		text-align: center;
@@ -4465,4 +4474,127 @@ html.menu-opened body {
 		text-align: center;
 	}
 }
+
+@media only screen and (max-width: 575.98px){
+	.copyright-text ul {
+		width: 28%;
+		margin-left: 36%;
+	}
+
+	.footer-bottom .copyright-text p {
+		text-align: center;
+	}
+
+	.banner-section {
+		padding: 0px;
+	}
+
+	.slick-track{
+		max-height: 5%;
+	}
+
+	.cloud-service-section{
+		padding: 0px;
+	}
+
+	.smartsheet-intergration{
+		padding: 0px;
+	}
+
+	h5{
+		font-size: 15px;
+	}
+
+	.no-code-ui-section{
+		padding: 0px;
+	}
+
+	.no-code-ui-section h2{
+		font-size: 28px;
+	}
+
+	.no-code-ui-section p{
+		font-size: 18px;
+	}
+
+	span{
+		font-weight: bolder;
+		font-size: 35px;
+	}
+
+	.text-white{
+		font-size: 20px;
+		color: #000!important;
+		font-weight: bold;
+	}
+
+	.smartsheet-banner .banner-sub-text{
+
+		color: #00104a;
+	}
+
+	
+	.cloud-integration-banner h4{
+		font-size: 35px;
+	}
+
+	.cloud-integration-banner h2{
+		font-size: 30px;
+		font-weight: bold;
+
+	}
+
+	.know-more-btn{
+		font-size: 14px;
+	}
+
+	.mulisoft-content{
+		font-size: 28px;
+	}
+
+	.mulisoft-content p{
+		font-size: 20px;
+	}
+	.mt-20{
+	margin-top: 20%;
+	}
+	.mulisoft-section{
+		width: 100%;
+	}
+	.section-header .inner-text{
+		font-size: 20px;
+	}
+
+	.wdh_100{
+		width: 100%;
+	}
+
+	.cloud-card-content p{
+		font-size: 18px;
+	}
+
+	.cloud-card-content h3{
+		font-size: 25px;
+	}
+
+	..cloud-card-content h3{
+		font-size: 25px;
+	}
+
+	.sales-text-section .media-body p{
+		font-size: 18px;
+	}
+
+}
+
+.box_height{
+
+	  min-height: 28em!important;
+}
+
+.test_height{
+	min-height: 35em!important;
+}
+
+
 
