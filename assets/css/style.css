@@ -3088,7 +3088,7 @@ html.menu-opened body {
 -----------------------*/
 .banner-section {
     position: relative;
-    background: url(../img/banner-img.png);
+    background: url(../img/banner-img.jpg);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3210,8 +3210,10 @@ html.menu-opened body {
 	smartsheet
 ------------------**/
 .smartsheet-banner {
-	background-color: #15B2D5;
-	background-image: none;
+	/* background-color: #15B2D5; */
+	background-image: url(../img/Smartsheet.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
 }
 .smartsheet-banner .banner-sub-text {
 	color: #96EFFF;
@@ -3259,12 +3261,15 @@ html.menu-opened body {
 .smartsheet-intergration .section-header h2 {
 	margin-bottom: 50px;
 }
+
 /*---------------------------------
 	Cloud Integration
 ------------------------------------*/
 .cloud-integration-banner {
 	background: #50D4EB;
-	background-image: none;
+	background-image: url(../img/CloudIntegrationServices.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
 }
 .cloud-integration-banner h2 {
 	font-size: 40px;
@@ -3299,8 +3304,11 @@ html.menu-opened body {
 	Careers
 -------------------*/
 .careers-section {
-	background-image: none;
+	background: url(../img/Careers.jpg);
 	background-color: #ccc;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 .careers-text-section .card .card-title {
 	font-size: 30px;
@@ -3334,6 +3342,13 @@ html.menu-opened body {
 }
 .mulisoft-card {
 	border-radius: 30px;
+}
+.mulisoft-section {
+	background: url(../img/MULESOFT.jpg);
+	background-color: #ccc;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 /*------------------------
 	Salesforce
