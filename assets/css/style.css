@@ -3436,6 +3436,77 @@ html.menu-opened body {
 #success {
 	color: #26af48;
 }
+.aws-banner {
+	background: url(../img/aws.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.google-cloud-platform-section {
+	background: url(../img/GoogleCloudPlatform.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.xcavate-section {
+	background: url(../img/XCAVATE.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.sanbox-section {
+	background: url(../img/Sandbox-App.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.salesforce1 {
+	background: url(../img/SALESFORCE.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.partners-section {
+	background:url(../img/PARTNER.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.case-studies-section {
+	background:url(../img/CASESTUDY.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.blog-section {
+	background:url(../img/blog.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.about-us-section {
+	background:url(../img/aboutus.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.news-events-section {
+	background:url(../img/News-Event.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.clients-section {
+	background:url(../img/Clients.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.contact-us-section {
+	background:url(../img/contactus.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 /*-----------------
 	Responsive
 -----------------------*/
@@ -4402,9 +4473,9 @@ html.menu-opened body {
 	.read-more {
 		font-size: 14px;
 	}
-	.banner-section {
+	/* .banner-section {
 		background-image: none;
-	}
+	} */
 	.banner-text {
 		font-size: 24px;
 		margin-bottom: 15px;
@@ -4444,7 +4515,25 @@ html.menu-opened body {
 	.process-section .card-body p {
 		font-size: 16px;
 	}
-
+	.section-header h2 {
+		line-height: 26px;
+	}
+	.banner-sub-text {
+		font-size: 16px;
+	}
+	.contact-us .form-group label {
+		font-size: 18px;
+		color: #3A4965;
+	}
+	.contact-us input {
+		height: 50px;
+		font-size: 18px;
+	}
+	.mulisoft-content p {
+		font-size: 16px;
+		color: #000;
+		line-height: 20px;
+	}
 }
 
 @media only screen and (max-width:479px) {
