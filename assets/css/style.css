@@ -3303,7 +3303,7 @@ html.menu-opened body {
 	background-color: #ccc;
 }
 .careers-text-section .card .card-title {
-	font-size: 30px;
+	/* font-size: 30px; */
 	color: #000000;
 	font-weight: 600;
 }
@@ -4413,11 +4413,11 @@ html.menu-opened body {
 	.testimonial-slide .card {
 		min-height: 415px;
 	}
-	.careers-text-section .card .card-title {
-		font-size: 1.25rem;
+	 {
+		/* font-size: 1.25rem; */
 	}
 	.careers-text-section .card p {
-		font-size: 16px;
+		/* font-size: 16px; */
 	}
 	.cloud-text-section {
 		padding: 20px 0;
