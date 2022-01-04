@@ -3235,7 +3235,7 @@ html.menu-opened body {
 	line-height: 35px;
 }
 .process-section {
-	padding-top: 90px;
+	padding-top: 50px;
 }
 .smartsheet-intergration {
 	padding: 90px 0;
@@ -4430,9 +4430,9 @@ html.menu-opened body {
 	.slick-next {
 		right: 0px;
 	}
-	.section-header h2 {
+	/* .section-header h2 {
 		font-size: 1.5rem;
-	}
+	} */
 	.section-header .sub-title {
 		font-size: 0.875rem;
 	}
@@ -4582,9 +4582,13 @@ html.menu-opened body {
 		max-height: 5%;
 	}
 
-	.cloud-service-section{
-		padding: 0px;
+	.min-height-sales{
+		min-height: auto !important;
 	}
+
+	/* .cloud-service-section{
+		padding: 0px;
+	} */
 
 	.smartsheet-intergration{
 		padding: 0px;
