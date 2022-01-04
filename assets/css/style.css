@@ -3141,11 +3141,11 @@ html.menu-opened body {
 	background-color: #ffffff;
 }
 .section-header h2 {
-	font-size: 60px;
+	font-size: 40px;
 	color: #3A4965;
 	font-weight: 300;
 	margin-bottom: 40px;
-	line-height: 57px;
+	line-height: 46px;
 }
 .section-header h2 span {
 	color: #617AB9;
@@ -3338,7 +3338,7 @@ html.menu-opened body {
 	font-size: 30px;
 	color: #3A4965;
 	margin-bottom: 30px;
-	line-height: 42px;
+	line-height: 36px;
 }
 .mulisoft-content p {
 	font-size: 22px;
@@ -3409,6 +3409,7 @@ html.menu-opened body {
 }
 .sandbox-card {
 	border-radius: 30px;
+	margin-bottom: 15px;
 }
 .text-light-blue {
 	color:#617AB9
@@ -3509,6 +3510,12 @@ html.menu-opened body {
 }
 .contact-us-section {
 	background:url(../img/contactus.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.azure-section {
+	background:url(../img/azure.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -4345,7 +4352,7 @@ html.menu-opened body {
 
 @media only screen and (max-width: 575.98px) {
 	body {
-		font-size: 0.8125rem;
+		font-size: 0.75rem;
 	}
 	h1,
 	.h1 {
@@ -4431,7 +4438,7 @@ html.menu-opened body {
 		right: 0px;
 	}
 	.section-header h2 {
-		font-size: 1.5rem;
+		font-size: 24px;
 	}
 	.section-header .sub-title {
 		font-size: 0.875rem;
@@ -4502,18 +4509,11 @@ html.menu-opened body {
 	.cloud-slider-cards .card .card-body img {
 		height: auto;
 	}
-	.card-height{
 
-	}
 	.testimonial-slide .card {
 		min-height: 415px;
 	}
-	 
-		/* font-size: 1.25rem; */
-	}
-	.careers-text-section .card p {
-		/* font-size: 16px; */
-	}
+
 	.cloud-text-section {
 		padding: 20px 0;
 	}
@@ -4525,7 +4525,7 @@ html.menu-opened body {
 		font-size: 16px;
 	}
 	.section-header h2 {
-		line-height: 26px;
+		line-height: 30px;
 	}
 	.banner-sub-text {
 		font-size: 16px;
@@ -4542,6 +4542,160 @@ html.menu-opened body {
 		font-size: 16px;
 		color: #000;
 		line-height: 20px;
+	}
+}
+
+@media only screen and (max-width: 575.98px){
+	.copyright-text ul {
+		width: 28%;
+		margin-left: 36%;
+	}
+
+	.footer-bottom .copyright-text p {
+		text-align: center;
+	}
+
+	.banner-section {
+		padding: 10px 0;
+	}
+
+	.slick-track{
+		max-height: 5%;
+	}
+
+
+	.smartsheet-intergration{
+		padding: 20px 0;
+	}
+
+	h5{
+		font-size: 15px;
+	}
+
+	.no-code-ui-section{
+		padding: 10px 0;
+	}
+
+	.no-code-ui-section h2{
+		font-size: 28px;
+		margin-bottom: 15px;
+	}
+
+	.no-code-ui-section p{
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+
+	.text-white{
+		font-size: 20px;
+		color: #000!important;
+		font-weight: bold;
+	}
+
+	.smartsheet-banner .banner-sub-text{
+
+		color: #00104a;
+	}
+
+	
+	.cloud-integration-banner h4{
+		font-size: 35px;
+	}
+
+	.cloud-integration-banner h2{
+		font-size: 26px;
+		font-weight: bold;
+
+	}
+
+	.know-more-btn{
+		font-size: 14px;
+		line-height: 13px;
+	}
+
+	.mulisoft-content{
+		font-size: 28px;
+	}
+
+	.mulisoft-content p {
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+
+	.mulisoft-section{
+		width: 100%;
+	}
+	.section-header .inner-text{
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.sales-text-section {
+		padding: 20px 0;
+	}
+	.wdh_100{
+		width: 100%;
+	}
+
+	.cloud-card-content p{
+		font-size: 18px;
+	}
+
+	.cloud-card-content h3{
+		font-size: 25px;
+	}
+
+	.cloud-card-content h3{
+		font-size: 24px;
+	}
+
+	.sales-text-section .media-body p{
+		font-size: 18px;
+	}
+	.careers-section {
+		background-position: inherit;
+	}
+	.explore-our-product-section {
+		padding: 0 0 20px 0;
+	}
+	.careers-text-section .card .card-title {
+		font-size: 20px;
+	}
+	.careers-text-section .card p {
+		font-size: 16px;
+	}
+	.case-studies-section {
+		background-position: right;
+	}
+	.blog-section {
+		background-position: right;
+	}
+	.benifits-section h3 {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	.benifits-section {
+		padding: 10px 0;
+	}
+	.flex {
+		flex-direction: column;
+	}
+	.process-section {
+		padding-top: 20px;
+	}
+	.process-section .card-body p {
+		line-height: 26px;
+	}
+	.mulisoft-content h3 {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+	.benifits-section p {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 26px;
 	}
 }
 
@@ -4562,118 +4716,6 @@ html.menu-opened body {
 	.copyright-text {
 		text-align: center;
 	}
-}
-
-@media only screen and (max-width: 575.98px){
-	.copyright-text ul {
-		width: 28%;
-		margin-left: 36%;
-	}
-
-	.footer-bottom .copyright-text p {
-		text-align: center;
-	}
-
-	.banner-section {
-		padding: 0px;
-	}
-
-	.slick-track{
-		max-height: 5%;
-	}
-
-	.cloud-service-section{
-		padding: 0px;
-	}
-
-	.smartsheet-intergration{
-		padding: 0px;
-	}
-
-	h5{
-		font-size: 15px;
-	}
-
-	.no-code-ui-section{
-		padding: 0px;
-	}
-
-	.no-code-ui-section h2{
-		font-size: 28px;
-	}
-
-	.no-code-ui-section p{
-		font-size: 18px;
-	}
-
-	span{
-		font-weight: bolder;
-		font-size: 35px;
-	}
-
-	.text-white{
-		font-size: 20px;
-		color: #000!important;
-		font-weight: bold;
-	}
-
-	.smartsheet-banner .banner-sub-text{
-
-		color: #00104a;
-	}
-
-	
-	.cloud-integration-banner h4{
-		font-size: 35px;
-	}
-
-	.cloud-integration-banner h2{
-		font-size: 30px;
-		font-weight: bold;
-
-	}
-
-	.know-more-btn{
-		font-size: 14px;
-	}
-
-	.mulisoft-content{
-		font-size: 28px;
-	}
-
-	.mulisoft-content p{
-		font-size: 20px;
-	}
-	.mt-20{
-	margin-top: 20%;
-	}
-	.mulisoft-section{
-		width: 100%;
-	}
-	.section-header .inner-text{
-		font-size: 20px;
-	}
-
-	.wdh_100{
-		width: 100%;
-	}
-
-	.cloud-card-content p{
-		font-size: 18px;
-	}
-
-	.cloud-card-content h3{
-		font-size: 25px;
-	}
-
-	..cloud-card-content h3{
-		font-size: 25px;
-	}
-
-	.sales-text-section .media-body p{
-		font-size: 18px;
-	}
-
 }
 
 .box_height{

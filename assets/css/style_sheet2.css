@@ -11,16 +11,16 @@ color: #617AB9;
 .bg-image{
 	background-image: url("../img/smartsheet/img-1.png");
 	width: 100%;
-	height: auto;
+	height: 300px;
 }
 /* xcavate */
-.ios-img{
+/* .ios-img{
 	width: 53%;
 }
 
 .App-store img{
 		width: 70%;
-}
+} */
 
 .App-store{
 	text-align: center;
@@ -50,17 +50,17 @@ color: #617AB9;
 	height: 300px;
 }
 
-.left_content{
+/* .left_content{
 	padding-left: 10%;
-}
-
+} */
+/* 
 .left_content p{
 	text-align: justify;
 }
 .xcavate_img{
 	width: 80%;
 	text-align: center;
-}
+} */
 
 /* cloud-integration-service */
 .para{
@@ -616,9 +616,7 @@ color: #617AB9;
 	.card {
 		margin-bottom: 0.9375rem;
 	}
-	.card-body {
-		padding: 1.20rem;
-	}
+
 	.card-header {
 		padding: .75rem 1.25rem;
 	}
@@ -721,9 +719,7 @@ color: #617AB9;
 	.read-more {
 		font-size: 14px;
 	}
-	.banner-section {
-		background-image: none;
-	}
+
 	.banner-text {
 		font-size: 24px;
 		margin-bottom: 15px;
@@ -758,9 +754,12 @@ color: #617AB9;
 	}
 	.process-section .card-body h3 {
 		font-size: 26px;
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 	}
 	.process-section .card-body p {
+		font-size: 16px;
+	}
+	.our_services-ul li {
 		font-size: 16px;
 	}
 
