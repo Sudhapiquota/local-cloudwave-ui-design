@@ -8,11 +8,7 @@
 content: "•"; 
 color: #617AB9;
 }
-.bg-image{
-	background-image: url("../img/smartsheet/img-1.png");
-	width: 100%;
-	height: 300px;
-}
+
 /* xcavate */
 /* .ios-img{
 	width: 53%;
@@ -22,10 +18,10 @@ color: #617AB9;
 		width: 70%;
 } */
 
-.App-store{
+/* .App-store{
 	text-align: center;
 	margin-top: 5%;
-}
+} */
 
 .h3-margin{
 	margin-bottom: 0 !important;
