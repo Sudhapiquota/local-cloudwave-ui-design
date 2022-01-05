@@ -4089,7 +4089,9 @@ html.menu-opened body {
 	}
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 767.98px)
+
+ {
 	h1,
 	.h1 {
 		font-size: 2rem;
@@ -4305,6 +4307,9 @@ html.menu-opened body {
 	body {
 		font-size: .75rem;
 	}
+	.pad-tp{
+		padding-top: 50px;
+	}
 	
 	.user-tabs {
 		margin-top: 1.5rem;
@@ -4346,11 +4351,25 @@ html.menu-opened body {
 	}
 	/* .cloud-slider-cards .card {
 		min-height: 468px;
-	} */
-	
+	} */	
+	.f-dir{
+		flex-direction: column !important;
+	}
+	.wi-100{
+		width: 100%;
+	}
+	.txt-ali{
+		text-align: center;
+	}
+	.m-left{
+		margin-left: 40% !important;
+	}
 }
 
 @media only screen and (max-width: 575.98px) {
+	.width-100{
+		width: 100%;
+	}
 	body {
 		font-size: 0.75rem;
 	}

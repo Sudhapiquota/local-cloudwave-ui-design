@@ -18,6 +18,10 @@ color: #617AB9;
 		width: 70%;
 } */
 
+.i-os-store{
+	width: 205px;
+}
+
 /* .App-store{
 	text-align: center;
 	margin-top: 5%;
@@ -39,8 +43,31 @@ color: #617AB9;
 	display: flex;	
 }
 .m-top{
-	margin-top: 10px;
+	margin-top: 10px;	
 }
+
+.m-b-dollor{
+	margin-bottom: 30px !important;
+	font-weight: 100;
+	font-size: 70px !important;
+}
+
+.font-size-users{
+	font-size:xx-large !important ;
+}
+
+.font-color{
+	color: #3A4965 !important;
+}
+
+.weight{
+	font-size: 35px;
+}
+
+.margin-top{
+	margin-top: 100px;
+}
+
 .irame{
 	width: 500px;
 	height: 300px;
@@ -316,6 +343,9 @@ color: #617AB9;
 	}
 	.job-search .form-control {
 		height: 60px;
+	}
+	.cloud-sucess-width{
+		width: 50%;
 	}
 }
 
