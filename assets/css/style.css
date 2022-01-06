@@ -2969,8 +2969,19 @@ html.menu-opened body {
     right: -25px;
     left: auto;
 }
-.slick-prev:before {
+/* .slick-prev:before {
     content: url('../img/slider-arrow-left.png');
+} */
+.slick-prev:before {
+	content: '';
+	background: url('../img/slider-arrow-left.png');
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+
 }
 [dir='rtl'] .slick-prev:before {
     content: 'â†’';
@@ -2983,7 +2994,14 @@ html.menu-opened body {
     left: -25px;
 }
 .slick-next:before {
-    content: url('../img/slider-arrow-right.png');
+    content: '';
+	background: url('../img/slider-arrow-right.png');
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
 }
 [dir='rtl'] .slick-next:before {
     content: 'â†';
@@ -4149,9 +4167,7 @@ html.menu-opened body {
 		font-size: 0.875rem;
 	}
 	
-	.section-header p {
-		font-size: 0.9375rem;
-	}
+
 	.footer-title {
 		font-size: 1.125rem;
 	}
@@ -4307,9 +4323,9 @@ html.menu-opened body {
 	body {
 		font-size: .75rem;
 	}
-	.pad-tp{
-		padding-top: 50px;
-	}
+	/* .pad-tp{
+		padding-top: 30px;
+	} */
 	
 	.user-tabs {
 		margin-top: 1.5rem;
@@ -4465,9 +4481,9 @@ html.menu-opened body {
 	.speicality-item p {
 		font-size: 0.875rem;
 	}
-	.section-header p {
+	/* .section-header p {
 		font-size: 0.9375rem;
-	}
+	} */
 	.footer-title {
 		font-size: 1.125rem;
 	}
@@ -4537,8 +4553,8 @@ html.menu-opened body {
 		padding: 20px 0;
 	}
 	.process-section .card-body h3 {
-		font-size: 26px;
-		margin-bottom: 20px;
+		font-size: 24px;
+		margin-bottom: 15px;
 	}
 	.process-section .card-body p {
 		font-size: 16px;
@@ -4578,12 +4594,12 @@ html.menu-opened body {
 		padding: 10px 0;
 	}
 
-	.slick-track{
+	.slick-track {
 		max-height: 5%;
 	}
 
 
-	.smartsheet-intergration{
+	.smartsheet-intergration {
 		padding: 20px 0;
 	}
 
@@ -4591,25 +4607,25 @@ html.menu-opened body {
 		font-size: 15px;
 	}
 
-	.no-code-ui-section{
+	.no-code-ui-section {
 		padding: 10px 0;
 	}
 
-	.no-code-ui-section h2{
-		font-size: 28px;
+	.no-code-ui-section h2 {
+		font-size: 24px;
 		margin-bottom: 15px;
 	}
 
-	.no-code-ui-section p{
-		font-size: 18px;
-		margin-bottom: 15px;
+	.no-code-ui-section p {
+		font-size: 16px;
+		margin-bottom: 10px;
 	}
 
-	.text-white{
+	/* .text-white{
 		font-size: 20px;
 		color: #000!important;
 		font-weight: bold;
-	}
+	} */
 
 	.smartsheet-banner .banner-sub-text{
 
@@ -4618,18 +4634,19 @@ html.menu-opened body {
 
 	
 	.cloud-integration-banner h4{
-		font-size: 35px;
+		font-size: 30px;
+		margin-bottom: 10px;
 	}
 
 	.cloud-integration-banner h2{
-		font-size: 26px;
-		font-weight: bold;
+		font-size: 24px;
+		
 
 	}
 
 	.know-more-btn{
-		font-size: 14px;
-		line-height: 13px;
+		font-size: 12px;
+		line-height: 14px;
 	}
 
 	.mulisoft-content{
@@ -4644,6 +4661,12 @@ html.menu-opened body {
 	.mulisoft-section{
 		width: 100%;
 	}
+	.mulisoft-section .banner-text {
+		font-size: 18px;
+	}
+	.mulisoft-card img {
+		width: 60px;
+	}
 	.section-header .inner-text{
 		font-size: 16px;
 		line-height: 28px;
@@ -4656,7 +4679,7 @@ html.menu-opened body {
 	}
 
 	.cloud-card-content p{
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.cloud-card-content h3{
@@ -4708,13 +4731,53 @@ html.menu-opened body {
 	}
 	.mulisoft-content h3 {
 		font-size: 20px;
-		line-height: 30px;
+		line-height: 22px;
 		margin-bottom: 20px;
+	}
+	.mulisoft-card .card-body {
+		padding: 10px;
 	}
 	.benifits-section p {
 		font-size: 16px;
 		font-weight: 500;
 		line-height: 26px;
+	}
+	.arrowdown-img {
+		width: 10px;
+	}
+	.slick-next:before, .slick-prev:before {
+		background-size: 40px 40px;
+		background-repeat: no-repeat;
+	}
+	.slick-prev, .slick-next {
+		width: 40px;
+		height: 40px;
+	}
+	.cloud-slider-cards .card {
+		min-height: 425px;
+		display: flex!important;
+		margin-bottom: 0;
+	}
+	.cloud-slider .card-body {
+		padding: 8px;
+	}
+	.cloud-slider h2 {
+		font-size: 18px;
+	}
+	.smartsheet-intergration .media {
+		margin-bottom: 20px;
+	}
+	.smartsheet-intergration .media img {
+		width: 60px;
+	}
+	.smartsheet-intergration {
+		margin-bottom: 20px;
+	}
+	.smartsheet-intergration .section-header h2 {
+		margin-bottom: 20px;
+	}
+	.smartsheet-intergration .media-body h5 {
+		font-size: 16px;
 	}
 }
 
