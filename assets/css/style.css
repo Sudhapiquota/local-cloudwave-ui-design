@@ -3119,6 +3119,9 @@ html.menu-opened body {
     display: flex;
     z-index: 1;
 }
+.banner-blog{
+	min-height: 415px !important;
+}
 .custom-container {
     width: 100%;
     padding-right: 15px;
@@ -3507,6 +3510,7 @@ html.menu-opened body {
 	background:url(../img/blog.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
+	background-size: 60%;
 }
 .about-us-section {
 	background:url(../img/aboutus.jpg);
@@ -4576,7 +4580,7 @@ html.menu-opened body {
 	.mulisoft-content p {
 		font-size: 16px;
 		color: #000;
-		line-height: 20px;
+		line-height: 26px;
 	}
 }
 
