@@ -3378,9 +3378,9 @@ html.menu-opened body {
 	Salesforce
 ----------------------------*/
 .salesforce-banner .banner-inner-text {
-	margin-bottom: 39px;
+	margin-bottom: 30px;
 	color: #3A4965;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 23px;
 }
 .section-header .inner-text {
@@ -4778,6 +4778,21 @@ html.menu-opened body {
 	}
 	.smartsheet-intergration .media-body h5 {
 		font-size: 16px;
+	}
+	.sales-text-section .media img {
+		width: 55px;
+	}
+	.sales-text-section .know-more-btn {
+		margin-top: 25px;
+	}
+	.sales-text-section h3 {
+		font-size: 16px;
+	}
+	.sales-text-section .salesforce-img {
+		width: 170px;
+	}
+	.sales-text-section .card {
+		align-items: center;
 	}
 }
 
