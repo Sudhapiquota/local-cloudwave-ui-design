@@ -3119,9 +3119,7 @@ html.menu-opened body {
     display: flex;
     z-index: 1;
 }
-.banner-blog{
-	min-height: 415px !important;
-}
+
 .custom-container {
     width: 100%;
     padding-right: 15px;
@@ -3141,6 +3139,8 @@ html.menu-opened body {
 	font-weight: 300;
 	margin-bottom: 24px;
 }
+
+
 .banner-sub-text {
 	color: #3A4965;
 	font-size: 30px;
@@ -3509,8 +3509,7 @@ html.menu-opened body {
 .blog-section {
 	background:url(../img/blog.jpg);
 	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 60%;
+	background-position: right;	
 }
 .about-us-section {
 	background:url(../img/aboutus.jpg);
@@ -4388,7 +4387,7 @@ html.menu-opened body {
 
 @media only screen and (max-width: 575.98px) {
 	.width-100{
-		width: 100%;
+		width: 100% !important;
 	}
 	body {
 		font-size: 0.75rem;
@@ -4416,6 +4415,9 @@ html.menu-opened body {
 	h6,
 	.h6 {
 		font-size: 0.75rem;
+	}
+	.flex-wraap{
+		flex-wrap: wrap;
 	}
 	.card {
 		margin-bottom: 0.9375rem;
@@ -4798,7 +4800,11 @@ html.menu-opened body {
 	.sales-text-section .card {
 		align-items: center;
 	}
+	.app-img{
+		height: 45px;
+	}
 }
+
 
 @media only screen and (max-width:479px) {
 	.section-search {
