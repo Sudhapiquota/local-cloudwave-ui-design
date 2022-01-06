@@ -4582,13 +4582,13 @@ html.menu-opened body {
 	.mulisoft-content p {
 		font-size: 16px;
 		color: #000;
-		line-height: 26px;
+		line-height: 20px;
 	}
 }
 
 @media only screen and (max-width: 575.98px){
 	.copyright-text ul {
-		width: 28%;
+		/* width: 28%; */
 		margin-left: 36%;
 	}
 
@@ -4675,7 +4675,7 @@ html.menu-opened body {
 	}
 	.section-header .inner-text{
 		font-size: 16px;
-		line-height: 28px;
+		line-height: 22px;
 	}
 	.sales-text-section {
 		padding: 20px 0;
