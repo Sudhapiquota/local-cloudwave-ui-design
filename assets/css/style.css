@@ -2924,7 +2924,7 @@ html.menu-opened body {
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    box-shadow: 1px 6px 14px rgba(0,0,0,0.2);
+    box-shadow: none;
     background: #F6F5FA;
     border-radius: 100%;
     cursor: pointer;
@@ -4396,6 +4396,10 @@ html.menu-opened body {
 	.f-size-h{
 		font-size: 30px !important;
 	}
+	.blog-section {
+		background-position: right;
+		background-size: cover;
+	}
 }
 
 @media only screen and (max-width: 575.98px) {
@@ -4607,6 +4611,7 @@ html.menu-opened body {
 	.case-study-img {
 		width: 160px;
 	}
+	
 }
 
 @media only screen and (max-width: 575.98px){
@@ -4679,8 +4684,8 @@ html.menu-opened body {
 	}
 
 	.know-more-btn{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 20px;
+		line-height: 20px;
 	}
 
 	.mulisoft-content{
@@ -4850,6 +4855,15 @@ html.menu-opened body {
 		background-size: contain;
 		background-color: #15b2d5;
 	}
+	.wi-50{
+		width: 50%;
+	}
+	.real-img-flexs{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 
@@ -4866,6 +4880,12 @@ html.menu-opened body {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+	.cloud-integration-banner {
+		background: #50D4EB;
+		background-image: url(../img/CloudIntegrationServices.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	.copyright-text {
 		text-align: center;
