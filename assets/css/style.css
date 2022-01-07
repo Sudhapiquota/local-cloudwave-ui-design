@@ -4123,7 +4123,7 @@ html.menu-opened body {
 	}
 	h3,
 	.h3 {
-		font-size: 1.375rem;
+		font-size: 1.375rem ;
 	}
 	h4,
 	.h4 {
@@ -4150,6 +4150,9 @@ html.menu-opened body {
 	}
 	.card {
 		margin-bottom: 20px;
+	}
+	.box_height{
+		min-height: 35em !important;
 	}
 	
 	.breadcrumb-bar {
@@ -4383,6 +4386,16 @@ html.menu-opened body {
 	.m-left{
 		margin-left: 40% !important;
 	}
+	.f-size{
+		font-size: 1.75rem;
+	}
+	.real-img-flex{
+		display: flex;
+		justify-content: center;
+	}
+	.f-size-h{
+		font-size: 30px !important;
+	}
 }
 
 @media only screen and (max-width: 575.98px) {
@@ -4422,6 +4435,9 @@ html.menu-opened body {
 	}
 	.card {
 		margin-bottom: 0.9375rem;
+	}
+	.SF-width{
+		width: 100%;
 	}
 	.card-body {
 		padding: 1.20rem;
@@ -4804,6 +4820,9 @@ html.menu-opened body {
 	.app-img{
 		height: 45px;
 	}
+	.m-b{
+		padding-bottom:20px !important;
+	}
 }
 
 
@@ -4826,10 +4845,10 @@ html.menu-opened body {
 	}
 }
 
-.box_height{
+/* .box_height{
 
 	  min-height: 28em!important;
-}
+} */
 
 .test_height{
 	min-height: 35em!important;
