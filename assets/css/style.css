@@ -4601,6 +4601,12 @@ html.menu-opened body {
 		color: #000;
 		line-height: 20px;
 	}
+	.integration-section .card-body p {
+		line-height: 24px;
+	}
+	.case-study-img {
+		width: 160px;
+	}
 }
 
 @media only screen and (max-width: 575.98px){
@@ -4615,8 +4621,13 @@ html.menu-opened body {
 
 	.banner-section {
 		padding: 10px 0;
+		background-position: bottom;
+		background-size: contain;
+		background-color: #ededed;
 	}
-
+	.arrow-img {
+		width: 50px;
+	}
 	.slick-track {
 		max-height: 5%;
 	}
@@ -4718,6 +4729,7 @@ html.menu-opened body {
 	}
 	.careers-section {
 		background-position: inherit;
+		background-size: cover;
 	}
 	.explore-our-product-section {
 		padding: 0 0 20px 0;
@@ -4733,6 +4745,7 @@ html.menu-opened body {
 	}
 	.blog-section {
 		background-position: right;
+		background-size: cover;
 	}
 	.benifits-section h3 {
 		font-size: 20px;
@@ -4750,7 +4763,7 @@ html.menu-opened body {
 		padding-top: 20px;
 	}
 	.process-section .card-body p {
-		line-height: 26px;
+		line-height: 24px;
 	}
 	.mulisoft-content h3 {
 		font-size: 20px;
@@ -4822,6 +4835,20 @@ html.menu-opened body {
 	}
 	.m-b{
 		padding-bottom:20px !important;
+	}
+	.sanbox-section {
+		background-position:inherit;
+	}
+	.xcavate-section {
+		background-position:center;
+	}
+	.azure-section, .google-cloud-platform-section {
+		background-position:inherit;
+	}
+	.smartsheet-banner {
+		background-position: bottom left;
+		background-size: contain;
+		background-color: #15b2d5;
 	}
 }
 
