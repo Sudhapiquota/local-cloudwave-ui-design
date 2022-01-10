@@ -3106,12 +3106,29 @@ html.menu-opened body {
     color: black;
 }
 
+/*xcavate*/
+
+.wi-100{
+	width: 100%;
+}
+
 /*-------------------
 	Index page
 -----------------------*/
 .banner-section {
     position: relative;
-    background: url(../img/banner-img.jpg);
+    background: url(../img/home-page/LandingPage01.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    display: flex;
+    z-index: 1;
+}
+
+.banner-section-1{
+	position: relative;
+    background: url(../img/home-page/LandingPage02.jpg);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3310,6 +3327,9 @@ html.menu-opened body {
 	margin-bottom: 25px;
 }
 .banner-section {
+	padding: 90px 0;
+}
+.banner-section-1 {
 	padding: 90px 0;
 }
 .cloud-text-section {
@@ -3837,6 +3857,11 @@ html.menu-opened body {
 	.banner-section {
 		min-height: 560px;
 	}
+
+	.banner-section-1 {
+		min-height: 560px;
+	}
+
 	.process-section .card-body p {
 		font-size: 28px;
 		line-height: 30px;
@@ -3860,6 +3885,9 @@ html.menu-opened body {
 	    font-size: 44px;
 	}
 	.banner-section {
+		min-height: 400px;
+	}
+	.banner-section-1 {
 		min-height: 400px;
 	}
 	.banner-content h2 {
@@ -4049,6 +4077,9 @@ html.menu-opened body {
 		margin-bottom: 25px;
 	}
 	.banner-section {
+		min-height: 300px;
+	}
+	.banner-section-1 {
 		min-height: 300px;
 	}
 	.section-header h2 {
@@ -4377,9 +4408,7 @@ html.menu-opened body {
 	.f-dir{
 		flex-direction: column !important;
 	}
-	.wi-100{
-		width: 100%;
-	}
+	
 	.txt-ali{
 		text-align: center;
 	}
@@ -4562,6 +4591,9 @@ html.menu-opened body {
 	.banner-section {
 		min-height: 220px;
 	}
+	.banner-section-1 {
+		min-height: 220px;
+	}
 	.cloud-service-section {
 		padding: 20px 0;
 	}
@@ -4625,6 +4657,12 @@ html.menu-opened body {
 	}
 
 	.banner-section {
+		padding: 10px 0;
+		background-position: bottom;
+		background-size: contain;
+		background-color: #ededed;
+	}
+	.banner-section-1 {
 		padding: 10px 0;
 		background-position: bottom;
 		background-size: contain;

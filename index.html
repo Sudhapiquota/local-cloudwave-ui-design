@@ -1,531 +1,585 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Home</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-		
-		<!-- Favicons -->
-		<link href="assets/img/favicon.png" rel="icon">
-		
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
 
-		<!-- Slick CSS -->
-		<link rel="stylesheet" href="assets/css/slick.css"/>
-		<link rel="stylesheet" href="assets/css/slick-theme.css"/>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-		<!-- Main CSS -->
-		<link rel="stylesheet" href="assets/css/style.css">
-		
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+	<!-- Slick CSS -->
+	<link rel="stylesheet" href="assets/css/slick.css" />
+	<link rel="stylesheet" href="assets/css/slick-theme.css" />
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
 			<script src="assets/js/html5shiv.min.js"></script>
 			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
-	
-	</head>
-	<body>
 
-		<!-- Main Wrapper -->
-		<div class="main-wrapper">
-		
-			<!-- Header -->
-			<header class="header header-top">
-				<nav class="navbar navbar-expand-lg header-nav">
-					<div class="navbar-header">
-						<a id="mobile_btn" href="javascript:void(0);">
+</head>
+
+<body>
+
+	<!-- Main Wrapper -->
+	<div class="main-wrapper">
+
+		<!-- Header -->
+		<header class="header header-top">
+			<nav class="navbar navbar-expand-lg header-nav">
+				<div class="navbar-header">
+					<a id="mobile_btn" href="javascript:void(0);">
 						<span class="bar-icon">
-						<span></span>
-						<span></span>
-						<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
 						</span>
-						</a>
-						<a href="index.html" class="navbar-brand logo">
+					</a>
+					<a href="index.html" class="navbar-brand logo">
 						<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+					</a>
+				</div>
+				<div class="main-menu-wrapper">
+					<div class="menu-header">
+						<a href="index.html" class="menu-logo">
+							<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
+						</a>
+						<a id="menu_close" class="menu-close" href="javascript:void(0);">
+							<i class="fas fa-times"></i>
 						</a>
 					</div>
-					<div class="main-menu-wrapper">
-						<div class="menu-header">
-							<a href="index.html" class="menu-logo">
-							<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
-							</a>
-							<a id="menu_close" class="menu-close" href="javascript:void(0);">
-							<i class="fas fa-times"></i>
-							</a>
-						</div>
-						<ul class="main-nav bg-trans">
-							<!-- <li>
+					<ul class="main-nav bg-trans">
+						<!-- <li>
 								<a href="index.html">Home</a>
 							</li> -->
-							<li class="has-submenu">
-								<a href="">Services <i class="fas fa-chevron-down"></i></a>
-								<ul class="submenu">
-									<li><a href="smartsheet.html">Smartsheet</a></li>
-									<li><a href="cloud-integration-services.html">Cloud Integration Services</a></li>
-									<li><a href="mulesoft.html">MuleSoft</a></li>
-									<li><a href="salesforce.html">Salesforce</a></li>
-									<li><a href="aws.html">AWS</a></li>
-									<li><a href="google-cloud-platform.html">Google Cloud Platform</a></li>
-									<li><a href="azure.html">Azure</a></li>
-									
-								</ul>
-							</li>
-							<li class="has-submenu">
-								<a href="">Products <i class="fas fa-chevron-down"></i></a>
-								<ul class="submenu">
-									<li><a href="xcavate.html">XCavate</a></li>
-									<li><a href="sandbox-management-app.html">Sandbox Management App</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="partners.html">Partners</a>
-							</li>
-							<li class="has-submenu">
-								<a href="">Resources <i class="fas fa-chevron-down"></i></a>
-								<ul class="submenu">
-									<li><a href="case-studies.html">Case Studies</a></li>
-									<li><a href="blogs.html">Blogs</a></li>
-									
-								</ul>
-							</li>
-							<li class="has-submenu">
-								<a href="">Company <i class="fas fa-chevron-down"></i></a>
-								<ul class="submenu">
-									<li><a href="about-us.html">About Us</a></li>
-									<li><a href="news-events.html">News & Events</a></li>
-									<li><a href="clients.html">Clients</a></li>
-									<li><a href="careers.html">Careers</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="contact-us.html">Contact Us</a>
-							</li>
-							<li class="searchbar">
-								<i class="fa fa-search" aria-hidden="true"></i>
-								<div class="togglesearch">
-									<form action="search.html">
-                                        <input type="text" placeholder="" class="top-search">
-                                        <button class="btn btn-toogle">search</button>
-                                    </form>
-								</div>
-							</li>
-							
-						</ul>
-					</div>
-					
-				</nav>
-			</header>
-			<!-- /Header -->
-			
-			<!-- Breadcrumb -->
-			<div class="breadcrumb-bar">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-md-12 col-12 d-flex justify-content-center">
-							<a href="contact-us.html">Get in touch with our Experts</a>
-						</div>
+						<li class="has-submenu">
+							<a href="">Services <i class="fas fa-chevron-down"></i></a>
+							<ul class="submenu">
+								<li><a href="smartsheet.html">Smartsheet</a></li>
+								<li><a href="cloud-integration-services.html">Cloud Integration Services</a></li>
+								<li><a href="mulesoft.html">MuleSoft</a></li>
+								<li><a href="salesforce.html">Salesforce</a></li>
+								<li><a href="aws.html">AWS</a></li>
+								<li><a href="google-cloud-platform.html">Google Cloud Platform</a></li>
+								<li><a href="azure.html">Azure</a></li>
+
+							</ul>
+						</li>
+						<li class="has-submenu">
+							<a href="">Products <i class="fas fa-chevron-down"></i></a>
+							<ul class="submenu">
+								<li><a href="xcavate.html">XCavate</a></li>
+								<li><a href="sandbox-management-app.html">Sandbox Management App</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="partners.html">Partners</a>
+						</li>
+						<li class="has-submenu">
+							<a href="">Resources <i class="fas fa-chevron-down"></i></a>
+							<ul class="submenu">
+								<li><a href="case-studies.html">Case Studies</a></li>
+								<li><a href="blogs.html">Blogs</a></li>
+
+							</ul>
+						</li>
+						<li class="has-submenu">
+							<a href="">Company <i class="fas fa-chevron-down"></i></a>
+							<ul class="submenu">
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="news-events.html">News & Events</a></li>
+								<li><a href="clients.html">Clients</a></li>
+								<li><a href="careers.html">Careers</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="contact-us.html">Contact Us</a>
+						</li>
+						<li class="searchbar">
+							<i class="fa fa-search" aria-hidden="true"></i>
+							<div class="togglesearch">
+								<form action="search.html">
+									<input type="text" placeholder="" class="top-search">
+									<button class="btn btn-toogle">search</button>
+								</form>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+			</nav>
+		</header>
+		<!-- /Header -->
+
+		<!-- Breadcrumb -->
+		<div class="breadcrumb-bar">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-md-12 col-12 d-flex justify-content-center">
+						<a href="contact-us.html">Get in touch with our Experts</a>
 					</div>
 				</div>
 			</div>
-			<!-- /Breadcrumb -->
-			
-			<!-- Page Content -->
-			<div class="content pt-0">
+		</div>
+		<!-- /Breadcrumb -->
 
-				<!-- banner section -->
-				<section class="banner-section align-items-center">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-8 col-lg-6 col-sm-12">
-								<h2 class="banner-text">Achieve Enterprise Platform for  Dynamic work with Smartsheet Integration</h2>
-								<h4 class="banner-sub-text">Seamlessly connect with a variety of systems</h4>
-								<a href="contact-us.html" class="btn know-more-btn">KNOW MORE</a>
-							</div>
-							<div class="col-md-6 col-lg-6">
+		<!-- Page Content -->
+		<div class="content pt-0">
 
-							</div>
+			<!-- banner section -->
+			<section class=" align-items-center banner-section-home">
+				<div class="container-fluid banner-section">
+					<div class="row ">
+						<div class="col-md-8 col-lg-6 col-sm-12 ">
+							<h2 class="banner-text">Achieve Enterprise Platform for Dynamic work with Smartsheet
+								Integration</h2>
+							<h4 class="banner-sub-text">Seamlessly connect with a variety of systems</h4>
+							<a href="contact-us.html" class="btn know-more-btn">KNOW MORE</a>
 						</div>
-					</div>
-				</section>
-				<!-- /baneer section -->
+						<div class="col-md-6 col-lg-6">
 
-				<!-- Cloud Service section -->
-				<section class="cloud-service-section">
-					<div class="container-fluid">
-						<div class="section-header">
-							<h2><span>Cloud</span> Services</h2>
 						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="cloud-slider cloud-slider-cards card-height">
-									<div class="card min-height-sales">
-										<div class="card-header border-0 pb-0">
-											<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
-										</div>
-										<div class="card-body">
-											
-											<div class="cloud-card-content">
-												<h2>SALESFORCE</h2>
-												<p>Build and manage your cloud infrastructure more secure & reliable, experience a 360-degree view of your customers to deliver smarter, faster ..</p>
-												<img src="assets/img/cloud-service/img-2.png" alt="" class="img-fluid">
-											</div>
-										</div>
-										<div class="card-footer border-0">
-											<a href="salesforce.html" class="btn know-more-btn">READ MORE</a>
-										</div>
-									</div>
-									<div class="card">
-										<div class="card-header border-0 pb-0">
-											<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
-										</div>
-										<div class="card-body">
-											
-											<div class="cloud-card-content">
-												<h2>MULESOFT</h2>
-												<p>Get end to end services for MuleSoft from discovery, platform setup, and setting up C4E, Architecture, Mule Application Design, Development and Maintenance.</p>
-												<img src="assets/img/cloud-service/img-1.png" alt="" class="img-fluid">
-											</div>
-										</div>
-										<div class="card-footer border-0">
-											<a href="mulesoft.html" class="btn know-more-btn">READ MORE</a>
-										</div>
-									</div>
-									<div class="card">
-										<div class="card-header border-0 pb-0">
-											<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
-										</div>
-										<div class="card-body">
-											
-											<div class="cloud-card-content">
-												<h2>Google Cloud Platform</h2>
-												<p>Grow your business in today’s complex, multi-cloud environment with world-class infrastructure and robust set of solutions to unlock the value in your business.</p>
-												<img src="assets/img/cloud-service/img-3.png" alt="" class="img-fluid">
-											</div>
-										</div>
-										<div class="card-footer border-0">
-											<a href="google-cloud-platform.html" class="btn know-more-btn">READ MORE</a>
-										</div>
-									</div>
-									<div class="card">
-										<div class="card-header border-0 pb-0">
-											<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
-										</div>
-										<div class="card-body">
-											
-											<div class="cloud-card-content">
-												<h2>Amazon Web Services</h2>
-												<p>Become more agile, innovate faster to differentiate your Business and transform Customer Experience with the
-													leading Cloud platform.</p>
-												<img src="assets/img/cloud-service/img-4.png" alt="" class="img-fluid">
-											</div>
-										</div>
-										<div class="card-footer border-0">
-											<a href="aws.html" class="btn know-more-btn">READ MORE</a>
-										</div>
-									</div>
-									<div class="card">
-										<div class="card-header border-0 pb-0">
-											<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
-										</div>
-										<div class="card-body">
-											
-											<div class="cloud-card-content">
-												<h2>Microsoft Azure</h2>
-												<p>Get a global reach with local presence by building, deploying and managing applications—in the cloud, on – premises and ensure seamless innovation anywhere with Azure.</p>
-												<img src="assets/img/cloud-service/img-1.png" alt="" class="img-fluid">
-											</div>
-										</div>
-										<div class="card-footer border-0">
-											<a href="azure.html" class="btn know-more-btn">READ MORE</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- /Cloud Service section -->
-
-				<!-- /Explore Our Product section -->
-				<section class="explore-our-product-section">
-					<div class="container-fluid">
-						<div class="section-header">
-							<h2><span>Explore our</span> Product</h2>
-							<p>Experience the power of the Cloud with our Cloud-Based products for your organizations to move Faster, Lower IT costs, and Scale.</p>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="explore-our-product-slider row">
-									<div class="col-lg-12 d-flex">
-										<div class="card flex-fill box_height">
-											<div class="card-header border-0 pb-0">
-												<img src="assets/img/Icons/Group 13691/Group 13691.png" alt="" class="img-fluid arrow-img">
-											</div>
-											<div class="card-body">
-												
-												<div class="cloud-card-content">
-													<h3>Google Smart Bot</h3>
-													<p>CloudWave Smart Bot instantly help a customer seamlessly transform a bot conversation to an online live agent hosted in Salesforce to deliver a comprehensive customer experience.</p>
-													
-												</div>
-											</div>
-											<!-- <div class="card-footer border-0">
-												<a href="google-cloud-platform.html" class="btn know-more-btn">READ MORE</a>
-											</div> -->
-										</div>
-									</div>
-									<div class="col-lg-12 d-flex">
-										<div class="card flex-fill box_height">
-											<div class="card-header border-0 pb-0">
-												<img src="assets/img/Icons/Group 13693/Group 13693.png" alt="" class="img-fluid arrow-img">
-											</div>
-											<div class="card-body">
-												
-												<div class="cloud-card-content">
-													<h3>Sandbox Management App</h3>
-													<p>Developers can now manage all their Sandboxes without requiring admin access in production.</p>
-													
-												</div>
-											</div>
-											<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
-										</div>
-									</div>
-									<div class="col-lg-12 d-flex">
-										<div class="card flex-fill box_height">
-											<div class="card-header border-0 pb-0">
-												<img src="assets/img/Icons/Group 13696/Group 13696.png" alt="" class="img-fluid arrow-img">
-											</div>
-											<div class="card-body">
-												
-												<div class="cloud-card-content">
-													<h3>XCavate</h3>
-													<p>Get XCavate to dig your Salesforce logs by 24/7 and Search and easily get relevant search results in Login History, Email Message, Setup Audit Trail and Event Logs.</p>
-													
-												</div>
-											</div>
-											<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
-										</div>
-									</div>
-									<div class="col-lg-12 d-flex">
-										<div class="card flex-fill box_height">
-											<div class="card-header border-0 pb-0">
-												<img src="assets/img/Icons/Group 13698/Group 13698.png" alt="" class="img-fluid arrow-img">
-											</div>
-											<div class="card-body">
-												
-												<div class="cloud-card-content">
-													<h3>XCavate-Mobile</h3>
-													<p>XCavate Mobile brings the power of XCavate Web on your mobile device so that you can search through the Salesforce logs on the go.</p>
-													
-												</div>
-											</div>
-											<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
-										</div>
-									</div>
-									<div class="col-lg-12 d-flex">
-										<div class="card flex-fill box_height">
-											<div class="card-header border-0 pb-0">
-												<img src="assets/img/Icons/Group 13700/Group 13700.png" alt="" class="img-fluid arrow-img">
-											</div>
-											<div class="card-body">
-												
-												<div class="cloud-card-content">
-													<h3>File Listing</h3>
-													<p>This file listing component in Salesforce keeps you within the same record even when you navigate to the attached files so you never lose track.</p>
-													
-												</div>
-											</div>
-											<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
-										</div>
-									</div>
-									<div class="col-lg-12 d-flex">
-										<div class="card flex-fill box_height">
-											<div class="card-header border-0 pb-0">
-												<img src="assets/img/Icons/Group 13703/Group 13703.png" alt="" class="img-fluid arrow-img">
-											</div>
-											<div class="card-body">
-												
-												<div class="cloud-card-content">
-													<h3>Clone Al</h3>
-													<p>This Salesforce Component when plugged into an object can clone a record and its related records in a click of a button.</p>
-													
-												</div>
-											</div>
-											<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</section>
-				<!-- /Explore Our Product section -->
-
-				<!-- our Partner section -->
-				<section class="explore-our-product-section">
-					<div class="container-fluid">
-						<div class="section-header">
-							<h2><span>Our</span> Partners</h2>
-							
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="our-partner-slider">
-									<img src="assets/img/our-partners/img-1.png" alt="" class="img-fluid ">
-									<img src="assets/img/our-partners/img-2.png" alt="" class="img-fluid ">
-									<img src="assets/img/our-partners/img-3.png" alt="" class="img-fluid ">
-									<img src="assets/img/our-partners/img-4.png" alt="" class="img-fluid ">
-									<img src="assets/img/our-partners/img-5.png" alt="" class="img-fluid ">
-									<img src="assets/img/our-partners/img-6.png" alt="" class="img-fluid ">
-									
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</section>
-				<!-- /our Partner section -->
-
-				<!-- our Partner section -->
-				<section class="explore-our-product-section">
-					<div class="container-fluid">
-						<div class="section-header">
-							<h2><span>Our</span> Clients</h2>
-							
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="our-partner-slider">
-									<img src="assets/img/our-clients/img-1.png" alt="" class="img-fluid">
-									<img src="assets/img/our-clients/img-2.png" alt="" class="img-fluid">
-									<img src="assets/img/our-clients/img-3.png" alt="" class="img-fluid">
-									<img src="assets/img/our-clients/img-4.png" alt="" class="img-fluid">
-									<img src="assets/img/our-clients/img-5.png" alt="" class="img-fluid">
-									<img src="assets/img/our-clients/img-6.png" alt="" class="img-fluid">
-									
-									
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</section>
-				<!-- /our Partner section -->
-
-				<!-- Testimonials section -->
-				<section class="cloud-service-section pt-0">
-					<div class="container-fluid">
-						<div class="section-header">
-							<h2 class="mb-4">Testimonials</h2>
-							<p>Experience the power of the Cloud with our Cloud-Based products for your organizations to move Faster, Lower IT costs, and Scale.</p>
-						</div>
-						<div class="row">
-							<div class="col-lg-12">
-								<div class="cloud-slider testimonial-slide"> 
-									<div class="card test_height">
-										<div class="card-body">
-											<div>
-												<img src="" alt="" class="img-fluid">
-												<p>We’ve developed a tight and collaborative partnership with CloudWave and always admire their commitment and dedication in delivering their project goals on time. Our Sincere appreciation to CloudWave & Team.</p>
-												
-											</div>
-										</div>
-										<div class="card-footer border-0">
-											<p class="text-primary mb-1">Head Project Delivery,</p>
-											<h2 class="text-primary">A Leading Management Company</h2>
-										</div>
-									</div>
-									<div class="card test_height">
-										<div class="card-body">
-											<div>
-												<img src="assets/img/testimonials/img-1.png" alt="" class="img-fluid">
-												<p>CloudWave and Piquota have been collaborating on several strategic initiatives and what's remarkable about Team CloudWave is their exceptional business sense coupled with their technical nous and expertise especially with respect to integrating Mule into the enterprise landscape. They get it, get it done and they do it faster and better than anyone else</p>
-												
-											</div>
-										</div>
-										<div class="card-footer border-0">
-											<p class="text-primary mb-1">Managing Partner,</p>
-											<h2 class="text-primary">Piquota Digital</h2>
-										</div>
-									</div>
-								
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- /Testimonials section -->
-			</div>		
-			<!-- /Page Content -->
-   
-			<!-- Footer -->
-			<footer class="footer">
-				<!-- Footer Bottom -->
-				<div class="footer-bottom">
-					<div class="container-fluid">
-						
-						<!-- Copyright -->
-						<div class="copyright">
-							<div class="row align-items-center">
-								<div class="col-md-6 col-12">
-									<div class="copyright-text txt-ali">
-										<p>© 2022 CloudWaveInc. All Rights Reserved. Privacy Policy</p>
-									</div>
-								</div>
-								<div class="col-md-6 col-12">
-									<div class="copyright-text">
-										<ul class="list-group list-group-horizontal m-left">											
-											<li class="list-group-item border-0 p-1"><a href="https://twitter.com/cloudwaveinc"><img class="img-fluid" alt="" src="assets/img/twitter.png"></a></li>
-											<li class="list-group-item border-0 p-1"><a href="https://www.linkedin.com/company/cloudwave/"><img class="img-fluid" alt="" src="assets/img/linkdin.png"></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- /Copyright -->
-						
 					</div>
 				</div>
-				<!-- /Footer Bottom -->
 				
-			</footer>
-			<!-- /Footer -->
-		   
-		</div>
-		<!-- /Main Wrapper -->
-	  
-		<!-- jQuery -->
-		<script src="assets/js/jquery-3.5.1.min.js"></script>
-		
-		<!-- Bootstrap Core JS -->
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		
-		<!-- Slick JS -->
-        <script src="assets/js/slick.js"></script>
+					<div class="container-fluid banner-section-1">
+						<div class="row ">
+							<div class="col-md-8 col-lg-6 col-sm-12 ">								
+								<h2 class="banner-text">Reinvent your Business</h2>
+								<h4 class="banner-sub-text">Realize Real-time Processing and Data Integration on Cloud</h4>
+								<a href="mulesoft.html" class="btn know-more-btn">Get in touch with our Integration services</a>
+							</div>
+							<div class="col-md-6 col-lg-6 ">
 
-		<!-- Custom JS -->
-		<script src="assets/js/header.js"></script>
-		<script src="assets/js/script.js"></script>
-		<script>
-	
-			$('.cloud-slider').slick({
+							</div>
+						</div>
+					</div>
+					
+			</section>
+			<!-- /baneer section -->
+
+			<!-- Cloud Service section -->
+			<section class="cloud-service-section">
+				<div class="container-fluid">
+					<div class="section-header">
+						<h2><span>Cloud</span> Services</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="cloud-slider cloud-slider-cards card-height">
+								<div class="card min-height-sales">
+									<div class="card-header border-0 pb-0">
+										<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
+									</div>
+									<div class="card-body">
+
+										<div class="cloud-card-content">
+											<h2>SALESFORCE</h2>
+											<p>Build and manage your cloud infrastructure more secure & reliable,
+												experience a 360-degree view of your customers to deliver smarter,
+												faster ..</p>
+											<img src="assets/img/cloud-service/img-2.png" alt="" class="img-fluid">
+										</div>
+									</div>
+									<div class="card-footer border-0">
+										<a href="salesforce.html" class="btn know-more-btn">READ MORE</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header border-0 pb-0">
+										<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
+									</div>
+									<div class="card-body">
+
+										<div class="cloud-card-content">
+											<h2>MULESOFT</h2>
+											<p>Get end to end services for MuleSoft from discovery, platform setup, and
+												setting up C4E, Architecture, Mule Application Design, Development and
+												Maintenance.</p>
+											<img src="assets/img/cloud-service/img-1.png" alt="" class="img-fluid">
+										</div>
+									</div>
+									<div class="card-footer border-0">
+										<a href="mulesoft.html" class="btn know-more-btn">READ MORE</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header border-0 pb-0">
+										<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
+									</div>
+									<div class="card-body">
+
+										<div class="cloud-card-content">
+											<h2>Google Cloud Platform</h2>
+											<p>Grow your business in today’s complex, multi-cloud environment with
+												world-class infrastructure and robust set of solutions to unlock the
+												value in your business.</p>
+											<img src="assets/img/cloud-service/img-3.png" alt="" class="img-fluid">
+										</div>
+									</div>
+									<div class="card-footer border-0">
+										<a href="google-cloud-platform.html" class="btn know-more-btn">READ MORE</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header border-0 pb-0">
+										<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
+									</div>
+									<div class="card-body">
+
+										<div class="cloud-card-content">
+											<h2>Amazon Web Services</h2>
+											<p>Become more agile, innovate faster to differentiate your Business and
+												transform Customer Experience with the
+												leading Cloud platform.</p>
+											<img src="assets/img/cloud-service/img-4.png" alt="" class="img-fluid">
+										</div>
+									</div>
+									<div class="card-footer border-0">
+										<a href="aws.html" class="btn know-more-btn">READ MORE</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header border-0 pb-0">
+										<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
+									</div>
+									<div class="card-body">
+
+										<div class="cloud-card-content">
+											<h2>Microsoft Azure</h2>
+											<p>Get a global reach with local presence by building, deploying and
+												managing applications—in the cloud, on – premises and ensure seamless
+												innovation anywhere with Azure.</p>
+											<img src="assets/img/cloud-service/img-1.png" alt="" class="img-fluid">
+										</div>
+									</div>
+									<div class="card-footer border-0">
+										<a href="azure.html" class="btn know-more-btn">READ MORE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Cloud Service section -->
+
+			<!-- /Explore Our Product section -->
+			<section class="explore-our-product-section">
+				<div class="container-fluid">
+					<div class="section-header">
+						<h2><span>Explore our</span> Product</h2>
+						<p>Experience the power of the Cloud with our Cloud-Based products for your organizations to
+							move Faster, Lower IT costs, and Scale.</p>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="explore-our-product-slider row">
+								<div class="col-lg-12 d-flex">
+									<div class="card flex-fill box_height">
+										<div class="card-header border-0 pb-0">
+											<img src="assets/img/Icons/Group 13691/Group 13691.png" alt=""
+												class="img-fluid arrow-img">
+										</div>
+										<div class="card-body">
+
+											<div class="cloud-card-content">
+												<h3>Google Smart Bot</h3>
+												<p>CloudWave Smart Bot instantly help a customer seamlessly transform a
+													bot conversation to an online live agent hosted in Salesforce to
+													deliver a comprehensive customer experience.</p>
+
+											</div>
+										</div>
+										<!-- <div class="card-footer border-0">
+												<a href="google-cloud-platform.html" class="btn know-more-btn">READ MORE</a>
+											</div> -->
+									</div>
+								</div>
+								<div class="col-lg-12 d-flex">
+									<div class="card flex-fill box_height">
+										<div class="card-header border-0 pb-0">
+											<img src="assets/img/Icons/Group 13693/Group 13693.png" alt=""
+												class="img-fluid arrow-img">
+										</div>
+										<div class="card-body">
+
+											<div class="cloud-card-content">
+												<h3>Sandbox Management App</h3>
+												<p>Developers can now manage all their Sandboxes without requiring admin
+													access in production.</p>
+
+											</div>
+										</div>
+										<!-- <div class="card-footer border-0">
+												<a href="" class="btn know-more-btn">READ MORE</a>
+											</div> -->
+									</div>
+								</div>
+								<div class="col-lg-12 d-flex">
+									<div class="card flex-fill box_height">
+										<div class="card-header border-0 pb-0">
+											<img src="assets/img/Icons/Group 13696/Group 13696.png" alt=""
+												class="img-fluid arrow-img">
+										</div>
+										<div class="card-body">
+
+											<div class="cloud-card-content">
+												<h3>XCavate</h3>
+												<p>Get XCavate to dig your Salesforce logs by 24/7 and Search and easily
+													get relevant search results in Login History, Email Message, Setup
+													Audit Trail and Event Logs.</p>
+
+											</div>
+										</div>
+										<!-- <div class="card-footer border-0">
+												<a href="" class="btn know-more-btn">READ MORE</a>
+											</div> -->
+									</div>
+								</div>
+								<div class="col-lg-12 d-flex">
+									<div class="card flex-fill box_height">
+										<div class="card-header border-0 pb-0">
+											<img src="assets/img/Icons/Group 13698/Group 13698.png" alt=""
+												class="img-fluid arrow-img">
+										</div>
+										<div class="card-body">
+
+											<div class="cloud-card-content">
+												<h3>XCavate-Mobile</h3>
+												<p>XCavate Mobile brings the power of XCavate Web on your mobile device
+													so that you can search through the Salesforce logs on the go.</p>
+
+											</div>
+										</div>
+										<!-- <div class="card-footer border-0">
+												<a href="" class="btn know-more-btn">READ MORE</a>
+											</div> -->
+									</div>
+								</div>
+								<div class="col-lg-12 d-flex">
+									<div class="card flex-fill box_height">
+										<div class="card-header border-0 pb-0">
+											<img src="assets/img/Icons/Group 13700/Group 13700.png" alt=""
+												class="img-fluid arrow-img">
+										</div>
+										<div class="card-body">
+
+											<div class="cloud-card-content">
+												<h3>File Listing</h3>
+												<p>This file listing component in Salesforce keeps you within the same
+													record even when you navigate to the attached files so you never
+													lose track.</p>
+
+											</div>
+										</div>
+										<!-- <div class="card-footer border-0">
+												<a href="" class="btn know-more-btn">READ MORE</a>
+											</div> -->
+									</div>
+								</div>
+								<div class="col-lg-12 d-flex">
+									<div class="card flex-fill box_height">
+										<div class="card-header border-0 pb-0">
+											<img src="assets/img/Icons/Group 13703/Group 13703.png" alt=""
+												class="img-fluid arrow-img">
+										</div>
+										<div class="card-body">
+
+											<div class="cloud-card-content">
+												<h3>Clone Al</h3>
+												<p>This Salesforce Component when plugged into an object can clone a
+													record and its related records in a click of a button.</p>
+
+											</div>
+										</div>
+										<!-- <div class="card-footer border-0">
+												<a href="" class="btn know-more-btn">READ MORE</a>
+											</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- /Explore Our Product section -->
+
+			<!-- our Partner section -->
+			<section class="explore-our-product-section">
+				<div class="container-fluid">
+					<div class="section-header">
+						<h2><span>Our</span> Partners</h2>
+
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="our-partner-slider">
+								<img src="assets/img/our-partners/img-1.png" alt="" class="img-fluid ">
+								<img src="assets/img/our-partners/img-2.png" alt="" class="img-fluid ">
+								<img src="assets/img/our-partners/img-3.png" alt="" class="img-fluid ">
+								<img src="assets/img/our-partners/img-4.png" alt="" class="img-fluid ">
+								<img src="assets/img/our-partners/img-5.png" alt="" class="img-fluid ">
+								<img src="assets/img/our-partners/img-6.png" alt="" class="img-fluid ">
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- /our Partner section -->
+
+			<!-- our Partner section -->
+			<section class="explore-our-product-section">
+				<div class="container-fluid">
+					<div class="section-header">
+						<h2><span>Our</span> Clients</h2>
+
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="our-partner-slider">
+								<img src="assets/img/our-clients/img-1.png" alt="" class="img-fluid">
+								<img src="assets/img/our-clients/img-2.png" alt="" class="img-fluid">
+								<img src="assets/img/our-clients/img-3.png" alt="" class="img-fluid">
+								<img src="assets/img/our-clients/img-4.png" alt="" class="img-fluid">
+								<img src="assets/img/our-clients/img-5.png" alt="" class="img-fluid">
+								<img src="assets/img/our-clients/img-6.png" alt="" class="img-fluid">
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- /our Partner section -->
+
+			<!-- Testimonials section -->
+			<section class="cloud-service-section pt-0">
+				<div class="container-fluid">
+					<div class="section-header">
+						<h2 class="mb-4">Testimonials</h2>
+						<p>Experience the power of the Cloud with our Cloud-Based products for your organizations to
+							move Faster, Lower IT costs, and Scale.</p>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="cloud-slider testimonial-slide">
+								<div class="card test_height">
+									<div class="card-body">
+										<div>
+											<img src="" alt="" class="img-fluid">
+											<p>We’ve developed a tight and collaborative partnership with CloudWave and
+												always admire their commitment and dedication in delivering their
+												project goals on time. Our Sincere appreciation to CloudWave & Team.</p>
+
+										</div>
+									</div>
+									<div class="card-footer border-0">
+										<p class="text-primary mb-1">Head Project Delivery,</p>
+										<h2 class="text-primary">A Leading Management Company</h2>
+									</div>
+								</div>
+								<div class="card test_height">
+									<div class="card-body">
+										<div>
+											<img src="assets/img/testimonials/img-1.png" alt="" class="img-fluid">
+											<p>CloudWave and Piquota have been collaborating on several strategic
+												initiatives and what's remarkable about Team CloudWave is their
+												exceptional business sense coupled with their technical nous and
+												expertise especially with respect to integrating Mule into the
+												enterprise landscape. They get it, get it done and they do it faster and
+												better than anyone else</p>
+
+										</div>
+									</div>
+									<div class="card-footer border-0">
+										<p class="text-primary mb-1">Managing Partner,</p>
+										<h2 class="text-primary">Piquota Digital</h2>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Testimonials section -->
+		</div>
+		<!-- /Page Content -->
+
+		<!-- Footer -->
+		<footer class="footer">
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="container-fluid">
+
+					<!-- Copyright -->
+					<div class="copyright">
+						<div class="row align-items-center">
+							<div class="col-md-6 col-12">
+								<div class="copyright-text txt-ali">
+									<p>© 2022 CloudWaveInc. All Rights Reserved. Privacy Policy</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-12">
+								<div class="copyright-text">
+									<ul class="list-group list-group-horizontal m-left">
+										<li class="list-group-item border-0 p-1"><a
+												href="https://twitter.com/cloudwaveinc"><img class="img-fluid" alt=""
+													src="assets/img/twitter.png"></a></li>
+										<li class="list-group-item border-0 p-1"><a
+												href="https://www.linkedin.com/company/cloudwave/"><img
+													class="img-fluid" alt="" src="assets/img/linkdin.png"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Copyright -->
+
+				</div>
+			</div>
+			<!-- /Footer Bottom -->
+
+		</footer>
+		<!-- /Footer -->
+
+	</div>
+	<!-- /Main Wrapper -->
+
+	<!-- jQuery -->
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+
+	<!-- Bootstrap Core JS -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Slick JS -->
+	<script src="assets/js/slick.js"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/header.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script>
+
+		$('.cloud-slider').slick({
 			dots: false,
 			infinite: false,
 			speed: 300,
@@ -533,113 +587,117 @@
 			slidesToScroll: 2,
 			responsive: [
 				{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
-					infinite: true,
-					dots: false
-				}
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+						infinite: true,
+						dots: false
+					}
 				},
 				{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
 				},
 				{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
 				}
 				// You can unslick at a given breakpoint now by adding:
 				// settings: "unslick"
 				// instead of a settings object
 			]
-			});
-		</script>
-		<script>
-	
-			$('.explore-our-product-slider').slick({
-				dots: false,
-				infinite: false,
-				speed: 300,
-				slidesToShow: 3,
-				slidesToScroll: 3,
-				responsive: [
-				{
-					breakpoint: 1024,
-					settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
-					infinite: true,
-					dots: false
-					}
-				},
-				{
-					breakpoint: 600,
-					settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2
-					}
-				},
-				{
-					breakpoint: 480,
-					settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-					}
-				}
-				// You can unslick at a given breakpoint now by adding:
-				// settings: "unslick"
-				// instead of a settings object
-				]
-			});
-			
-		</script>
-		<script>
-	
-			$('.our-partner-slider').slick({
-				dots: false,
-				infinite: false,
-				speed: 300,
-				slidesToShow: 4,
-				slidesToScroll: 4,
-				responsive: [
-				{
-					breakpoint: 1024,
-					settings: {
-					slidesToShow: 3,
-					slidesToScroll: 3,
-					infinite: true,
-					dots: false
-					}
-				},
-				{
-					breakpoint: 600,
-					settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2
-					}
-				},
-				{
-					breakpoint: 480,
-					settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-					}
-				}
-				// You can unslick at a given breakpoint now by adding:
-				// settings: "unslick"
-				// instead of a settings object
-				]
-			});
-			
+		});
+	</script>
+	<script>
 
-		</script>
-		
-	</body>
+		$('.explore-our-product-slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+						infinite: true,
+						dots: false
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+
+	</script>
+	<script>
+
+		$('.our-partner-slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3,
+						infinite: true,
+						dots: false
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+
+
+	</script>
+	<script>
+
+		$('.banner-section-home').slick();
+	</script>
+</body>
+
 </html>
