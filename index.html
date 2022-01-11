@@ -154,20 +154,21 @@
 						</div>
 					</div>
 				</div>
-				
-					<div class="container-fluid banner-section-1">
-						<div class="row ">
-							<div class="col-md-8 col-lg-6 col-sm-12 ">								
-								<h2 class="banner-text">Reinvent your Business</h2>
-								<h4 class="banner-sub-text">Realize Real-time Processing and Data Integration on Cloud</h4>
-								<a href="mulesoft.html" class="btn know-more-btn">Get in touch with our Integration services</a>
-							</div>
-							<div class="col-md-6 col-lg-6 ">
 
-							</div>
+				<div class="container-fluid banner-section-1">
+					<div class="row ">
+						<div class="col-md-8 col-lg-6 col-sm-12 ">
+							<h2 class="banner-text">Reinvent your Business</h2>
+							<h4 class="banner-sub-text">Realize Real-time Processing and Data Integration on Cloud</h4>
+							<a href="mulesoft.html" class="btn know-more-btn">Get in touch with our Integration
+								services</a>
+						</div>
+						<div class="col-md-6 col-lg-6 ">
+
 						</div>
 					</div>
-					
+				</div>
+
 			</section>
 			<!-- /baneer section -->
 
@@ -179,9 +180,9 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="cloud-slider cloud-slider-cards card-height">
+							<div class="cloud-slider cloud-slider-cards card-height ">
 								<div class="card min-height-sales">
-									<div class="card-header border-0 pb-0">
+									<div class="card-header border-0 pb-0 ">
 										<img src="assets/img/arrow-icon.png" alt="" class="img-fluid arrowdown-img">
 									</div>
 									<div class="card-body">
@@ -304,9 +305,9 @@
 
 											</div>
 										</div>
-										<!-- <div class="card-footer border-0">
-												<a href="google-cloud-platform.html" class="btn know-more-btn">READ MORE</a>
-											</div> -->
+										<div class="card-footer border-0">
+											<a href="google-cloud-platform.html" class="btn know-more-btn">READ MORE</a>
+										</div>
 									</div>
 								</div>
 								<div class="col-lg-12 d-flex">
@@ -324,9 +325,9 @@
 
 											</div>
 										</div>
-										<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
+										<div class="card-footer border-0">
+											<a href="" class="btn know-more-btn">READ MORE</a>
+										</div>
 									</div>
 								</div>
 								<div class="col-lg-12 d-flex">
@@ -345,9 +346,9 @@
 
 											</div>
 										</div>
-										<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
+										<div class="card-footer border-0">
+											<a href="" class="btn know-more-btn">READ MORE</a>
+										</div>
 									</div>
 								</div>
 								<div class="col-lg-12 d-flex">
@@ -365,9 +366,9 @@
 
 											</div>
 										</div>
-										<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
+										<div class="card-footer border-0">
+											<a href="" class="btn know-more-btn">READ MORE</a>
+										</div>
 									</div>
 								</div>
 								<div class="col-lg-12 d-flex">
@@ -386,9 +387,9 @@
 
 											</div>
 										</div>
-										<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
+										<div class="card-footer border-0">
+											<a href="" class="btn know-more-btn">READ MORE</a>
+										</div>
 									</div>
 								</div>
 								<div class="col-lg-12 d-flex">
@@ -406,9 +407,9 @@
 
 											</div>
 										</div>
-										<!-- <div class="card-footer border-0">
-												<a href="" class="btn know-more-btn">READ MORE</a>
-											</div> -->
+										<div class="card-footer border-0">
+											<a href="" class="btn know-more-btn">READ MORE</a>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -613,7 +614,38 @@
 				// settings: "unslick"
 				// instead of a settings object
 			]
+		});		
+
+		$('.cloud-slider').on('afterChange', function () {
+			console.log($('.cloud-slider').slick('slickCurrentSlide'));
+			var currentSlide = $('.cloud-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.slick-prev').hide();
+				$('.slick-next').show();
+			}
+			else if (currentSlide == 2) {
+				$('.slick-next').hide();
+				$('.slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 2) {
+				$('.slick-prev').show();
+				$('.slick-next').show();
+			}
+
 		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	cloud-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.slick-prev').hide();
+			}
+			else if (currentSlide == 2) {
+				$('.slick-next').hide();
+			}
+
+		});
+		
 	</script>
 	<script>
 
@@ -651,6 +683,36 @@
 				// settings: "unslick"
 				// instead of a settings object
 			]
+		});
+
+		$('.explore-our-product-slider').on('afterChange', function () {
+			console.log($('.explore-our-product-slider').slick('slickCurrentSlide'));
+			var currentSlide = $('.explore-our-product-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.slick-prev').hide();
+				$('.slick-next').show();
+			}
+			else if (currentSlide == 2) {
+				$('.slick-next').hide();
+				$('.slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 2) {
+				$('.slick-prev').show();
+				$('.slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	explore-our-product-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.slick-prev').hide();
+			}
+			else if (currentSlide == 2) {
+				$('.slick-next').hide();
+			}
+
 		});
 
 	</script>
@@ -692,11 +754,77 @@
 			]
 		});
 
+		$('.our-partner-slider').on('afterChange', function () {
+			console.log($('.our-partner-slider').slick('slickCurrentSlide'));
+			var currentSlide = $('.our-partner-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.slick-prev').hide();
+				$('.slick-next').show();
+			}
+			else if (currentSlide == 2) {
+				$('.slick-next').hide();
+				$('.slick-prev').show();
+			}
 
+			if (currentSlide > 0 && currentSlide < 2) {
+				$('.slick-prev').show();
+				$('.slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	our-partner-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.slick-prev').hide();
+			}
+			else if (currentSlide == 2) {
+				$('.slick-next').hide();
+			}
+
+		});
+		
 	</script>
 	<script>
 
-		$('.banner-section-home').slick();
+		$('.banner-section-home').slick(
+			{
+				dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			}
+		);
+		$('.banner-section-home').on('afterChange', function () {
+			console.log($('.banner-section-home').slick('slickCurrentSlide'));
+			var currentSlide = $('.banner-section-home').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.slick-prev').hide();
+				$('.slick-next').show();
+			}
+			else if (currentSlide == 2) {
+				$('.slick-next').hide();
+				$('.slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 2) {
+				$('.slick-prev').show();
+				$('.slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	banner-section-home').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.slick-prev').hide();
+			}
+			else if (currentSlide == 2) {
+				$('.slick-next').hide();
+			}
+
+		});
 	</script>
 </body>
 

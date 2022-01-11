@@ -211,6 +211,9 @@ input[type=password] {
 	min-height: 46px;
 	padding: 6px 15px;
 }
+.slick-arrow.slick-disabled {
+	display: none !important;
+}
 
 .table .form-control {
 	font-size: 14px;
@@ -2545,7 +2548,7 @@ html.menu-opened body {
 .breadcrumb-bar a {
  color: #6179B8;
  text-decoration: underline;
-
+font-size: 25px;
 }
 
 .custom_radio {
@@ -3230,7 +3233,7 @@ html.menu-opened body {
 	margin-bottom: 20px;
 }
 .explore-our-product-slider .card {
-	min-height: 370px;
+	min-height: 34em;
     padding: 10px;
     border-radius: 30px;
 }
@@ -3843,7 +3846,7 @@ html.menu-opened body {
 		font-size: 16px;
 	}
 	.explore-our-product-slider .card {
-		min-height: 410px;
+		min-height: 33em;
 	}
 	.explore-our-product-section {
 		padding: 0 0 40px 0;
@@ -4183,7 +4186,7 @@ html.menu-opened body {
 		margin-bottom: 20px;
 	}
 	.box_height{
-		min-height: 35em !important;
+		min-height: 41em !important;
 	}
 	
 	.breadcrumb-bar {
@@ -4652,6 +4655,9 @@ html.menu-opened body {
 		margin-left: 36%;
 	}
 
+	.breadcrumb-bar a{
+		font-size: 23px;
+	}
 	.footer-bottom .copyright-text p {
 		text-align: center;
 	}
