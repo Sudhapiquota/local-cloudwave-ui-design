@@ -3143,6 +3143,17 @@ font-size: 25px;
     z-index: 1;
 }
 
+.banner-section-2{
+	position: relative;
+    background: url(../img/Landing.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    display: flex;
+    z-index: 1;
+}
+
 .custom-container {
     width: 100%;
     padding-right: 15px;
@@ -3336,6 +3347,9 @@ font-size: 25px;
 	padding: 90px 0;
 }
 .banner-section-1 {
+	padding: 90px 0;
+}
+.banner-section-2 {
 	padding: 90px 0;
 }
 .cloud-text-section {
@@ -3868,6 +3882,10 @@ font-size: 25px;
 		min-height: 560px;
 	}
 
+	.banner-section-2 {
+		min-height: 560px;
+	}
+
 	.process-section .card-body p {
 		font-size: 28px;
 		line-height: 30px;
@@ -3894,6 +3912,9 @@ font-size: 25px;
 		min-height: 400px;
 	}
 	.banner-section-1 {
+		min-height: 400px;
+	}
+	.banner-section-2 {
 		min-height: 400px;
 	}
 	.banner-content h2 {
@@ -4086,6 +4107,9 @@ font-size: 25px;
 		min-height: 300px;
 	}
 	.banner-section-1 {
+		min-height: 300px;
+	}
+	.banner-section-2 {
 		min-height: 300px;
 	}
 	.section-header h2 {
@@ -4600,6 +4624,9 @@ font-size: 25px;
 	.banner-section-1 {
 		min-height: 220px;
 	}
+	.banner-section-2 {
+		min-height: 220px;
+	}
 	.cloud-service-section {
 		padding: 20px 0;
 	}
@@ -4672,6 +4699,12 @@ font-size: 25px;
 		background-color: #ededed;
 	}
 	.banner-section-1 {
+		padding: 10px 0;
+		background-position: bottom;
+		background-size: contain;
+		background-color: #ededed;
+	}
+	.banner-section-2 {
 		padding: 10px 0;
 		background-position: bottom;
 		background-size: contain;
