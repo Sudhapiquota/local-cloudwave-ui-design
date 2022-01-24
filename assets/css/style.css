@@ -1008,7 +1008,7 @@ button.bg-danger:hover {
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
 	background-color: #6179B8;
-	border-color: #6179B8;
+	border-color: #6179B8;	
 }
 
 .pagination > li > a,
@@ -1074,9 +1074,17 @@ button.bg-danger:hover {
 	padding: 1rem 1.5rem;
 }
 
+.partner-footer{
+	background-color: #fff;
+	border-top: 1px solid #f0f0f0;
+	padding: 1rem 1.5rem;
+	border-radius: 30px !important;
+}
+
 .card .card-header {
 	background-color: #fff;
 	border-bottom: 1px solid #f0f0f0;
+	border-radius: 30px;
 }
 
 .card .card-header .card-title {
@@ -2992,6 +3000,15 @@ font-size: 25px;
 [dir='rtl'] .slick-prev:before {
     content: 'â†’';
 }
+.our-partner-slider>.slick-next{
+	right: -50px;
+}
+.our-partner-slide>.slick-next{
+	right: -50px;
+}
+.our-partner-slider>.slick-prev{
+	left: -50px;
+}
 .slick-next {
     right: 0;
 }
@@ -3580,6 +3597,9 @@ font-size: 25px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+.cursor-text{
+	cursor: pointer;
 }
 /*-----------------
 	Responsive
@@ -4298,7 +4318,7 @@ font-size: 25px;
 		right: -10px;
 	}
 	.slick-prev {
-		left: -10px;
+		left: -10px !important;
 	}
 	.specialities-slider .slick-slide {
 		margin-right: 15px;
@@ -4556,10 +4576,13 @@ font-size: 25px;
 		font-size: 28px;
 	}
 	.slick-next {
-		right: 0px;
+		right: -15px !important;		
 	}
 	.section-header h2 {
 		font-size: 24px;
+	}
+	.testimonial-header{
+		font-size: 1.875rem !important;
 	}
 	.section-header .sub-title {
 		font-size: 0.875rem;

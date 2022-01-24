@@ -487,7 +487,7 @@
 			<section class="cloud-service-section pt-0">
 				<div class="container-fluid">
 					<div class="section-header">
-						<h2 class="mb-4">Testimonials</h2>
+						<h2 class="mb-4 testimonial-header">Testimonials</h2>
 						<p>Experience the power of the Cloud with our Cloud-Based products for your organizations to
 							move Faster, Lower IT costs, and Scale.</p>
 					</div>
@@ -654,6 +654,75 @@
 			}
 			else if (currentSlide == 2) {
 				$('.cloud-slider .slick-next').hide();
+			}
+
+		});
+
+	</script>
+	<script>
+
+		$('.testimonial-slide').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+						infinite: true,
+						dots: false
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+
+		$('.testimonial-slide').on('afterChange', function () {
+			console.log($('.testimonial-slide').slick('slickCurrentSlide'));
+			var currentSlide = $('.testimonial-slide').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.testimonial-slide .slick-prev').hide();
+				$('.testimonial-slide .slick-next').show();
+			}
+			else if (currentSlide == 2) {
+				$('.testimonial-slide .slick-next').hide();
+				$('.testimonial-slide .slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 2) {
+				$('.testimonial-slide .slick-prev').show();
+				$('.testimonial-slide .slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	testimonial-slide').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.testimonial-slide .slick-prev').hide();
+			}
+			else if (currentSlide == 2) {
+				$('.testimonial-slide .slick-next').hide();
 			}
 
 		});
