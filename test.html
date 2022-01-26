@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+	<!-- Favicons -->
+	<link href="assets/img/favicon.png" rel="icon">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+	<!-- Slick CSS -->
+	<link rel="stylesheet" href="assets/css/slick.css" />
+	<link rel="stylesheet" href="assets/css/slick-theme.css" />
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Main Wrapper -->
+	<div class="main-wrapper">
+
+		<!-- Header -->
+        <header id="head-div">
+
+        </header>
+        
+
+     
+        <div id="main-div">
+
+        </div>
+
+        <footer id="footer-div">
+
+        </footer>
+		<!-- /Footer -->
+
+	</div>
+	<!-- /Main Wrapper -->
+
+	<!-- jQuery -->
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+
+	<!-- Bootstrap Core JS -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Slick JS -->
+	<script src="assets/js/slick.js"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/header.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script>
+
+		$('.cloud-slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+						infinite: true,
+						dots: false
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+
+		$('.cloud-slider').on('afterChange', function () {
+			console.log($('.cloud-slider').slick('slickCurrentSlide'));
+			var currentSlide = $('.cloud-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.cloud-slider .slick-prev').hide();
+				$('.cloud-slider .slick-next').show();
+			}
+			else if (currentSlide == 2) {
+				$('.cloud-slider .slick-next').hide();
+				$('.cloud-slider .slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 2) {
+				$('.cloud-slider .slick-prev').show();
+				$('.cloud-slider .slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	cloud-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.cloud-slider .slick-prev').hide();
+			}
+			else if (currentSlide == 2) {
+				$('.cloud-slider .slick-next').hide();
+			}
+
+		});
+
+	</script>
+	<script>
+
+		$('.testimonial-slide').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+						infinite: true,
+						dots: false
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+
+		$('.testimonial-slide').on('afterChange', function () {
+			console.log($('.testimonial-slide').slick('slickCurrentSlide'));
+			var currentSlide = $('.testimonial-slide').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.testimonial-slide .slick-prev').hide();
+				$('.testimonial-slide .slick-next').show();
+			}
+			else if (currentSlide == 2) {
+				$('.testimonial-slide .slick-next').hide();
+				$('.testimonial-slide .slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 2) {
+				$('.testimonial-slide .slick-prev').show();
+				$('.testimonial-slide .slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	testimonial-slide').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.testimonial-slide .slick-prev').hide();
+			}
+			else if (currentSlide == 2) {
+				$('.testimonial-slide .slick-next').hide();
+			}
+
+		});
+
+	</script>
+	<script>
+
+		$('.explore-our-product-slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+						infinite: true,
+						dots: false
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+
+		$('.explore-our-product-slider').on('afterChange', function () {
+			console.log($('.explore-our-product-slider').slick('slickCurrentSlide'));
+			var currentSlide = $('.explore-our-product-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.explore-our-product-slider .slick-prev').hide();
+				$('.explore-our-product-slider .slick-next').show();
+			}
+			else if (currentSlide == 3) {
+				$('.explore-our-product-slider .slick-next').hide();
+				$('.explore-our-product-slider .slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 3) {
+				$('.explore-our-product-slider .slick-prev').show();
+				$('.explore-our-product-slider .slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	explore-our-product-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.explore-our-product-slider .slick-prev').hide();
+			}
+			else if (currentSlide == 3) {
+				$('.explore-our-product-slider .slick-next').hide();
+			}
+
+		});
+
+	</script>
+	<script>
+
+		$('.our-partner-slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3,
+						infinite: true,
+						dots: false
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+
+		$('.our-partner-slider').on('afterChange', function () {
+			console.log($('.our-partner-slider').slick('slickCurrentSlide'));
+			var currentSlide = $('.our-partner-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.our-partner-slider .slick-prev').hide();
+				$('.our-partner-slider .slick-next').show();
+			}
+			else if (currentSlide == 4) {
+				$('.our-partner-slider .slick-next').hide();
+				$('.our-partner-slider .slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 4) {
+				$('.our-partner-slider .slick-prev').show();
+				$('.our-partner-slider .slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.	our-partner-slider').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.our-partner-slider .slick-prev').hide();
+			}
+			else if (currentSlide == 4) {
+				$('.our-partner-slider .slick-next').hide();
+			}
+
+		});
+
+	</script>
+	<script>
+
+		$('.our-partner-slide').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3,
+						infinite: true,
+						dots: false
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+
+		$('.our-partner-slide').on('afterChange', function () {
+			console.log($('.our-partner-slide').slick('slickCurrentSlide'));
+			var currentSlide = $('.our-partner-slide').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.our-partner-slide .slick-prev').hide();
+				$('.our-partner-slide .slick-next').show();
+			}
+			else if (currentSlide == 4) {
+				$('.our-partner-slide .slick-next').hide();
+				$('.our-partner-slide .slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 4) {
+				$('.our-partner-slide .slick-prev').show();
+				$('.our-partner-slide .slick-next').show();
+			}
+
+		});
+
+		$(document).ready(function () {
+			var currentSlide = $('.our-partner-slide').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.our-partner-slide .slick-prev').hide();
+			}
+			else if (currentSlide == 4) {
+				$('.our-partner-slide .slick-next').hide();
+			}
+
+		});
+
+	</script>
+
+	<script>
+
+		$('.banner-section-home').slick(
+			{
+				dots: false,
+				infinite: false,
+				speed: 300,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			}
+		);
+		$('.banner-section-home').on('afterChange', function () {
+			console.log($('.banner-section-home').slick('slickCurrentSlide'));
+			var currentSlide = $('.banner-section-home').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.banner-section-home .slick-prev').hide();
+				$('.banner-section-home .slick-next').show();
+			}
+			else if (currentSlide == 2) {
+				$('.banner-section-home .slick-next').hide();
+				$('.banner-section-home .slick-prev').show();
+			}
+
+			if (currentSlide > 0 && currentSlide < 2) {
+				$('.banner-section-home .slick-prev').show();
+				$('.banner-section-home .slick-next').show();
+			}
+
+		});
+
+        
+            $(function(){
+              $("#head-div").load("./header.html"); 
+            });
+            $(function(){
+              $("#main-div").load("./body.html"); 
+            });
+            $(function(){
+              $("#footer-div").load("./footer.html"); 
+            });
+            
+
+
+		$(document).ready(function () {
+			var currentSlide = $('.	banner-section-home').slick('slickCurrentSlide');
+			if (currentSlide == 0) {
+				$('.banner-section-home .slick-prev').hide();
+			}
+			else if (currentSlide == 2) {
+				$('.banner-section-home .slick-next').hide();
+			}
+
+		});
+
+
+	</script>
+</body>
+
+</html>
