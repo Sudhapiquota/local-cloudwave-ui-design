@@ -3000,17 +3000,16 @@ font-size: 25px;
 [dir='rtl'] .slick-prev:before {
     content: 'â†’';
 }
-.our-partner-slider>.slick-next{
-	right: -50px;
-}
+
 .our-partner-slide>.slick-next{
-	right: -50px;
+	/* right: -50px; */
 }
 .our-partner-slider>.slick-prev{
 	left: -50px;
 }
 .slick-next {
-    right: 0;
+    /* right: -35px; */
+	right: 0px!important;
 }
 [dir='rtl'] .slick-next {
     right: auto;
@@ -3229,8 +3228,10 @@ font-size: 25px;
 	
 }
 .cloud-slider-cards .card {
-	min-height: 680px;
+	min-height: 700px;
 }
+
+
 .cloud-card-content h2 {
 	font-size: 40px;
 	color: #3A4965;
@@ -3370,7 +3371,7 @@ font-size: 25px;
 	padding: 90px 0;
 }
 .cloud-text-section {
-	padding: 60px 0;
+	padding-top: 60px;
 }
 .cloud-text-section p {
 	font-size: 36px;
@@ -4315,7 +4316,7 @@ font-size: 25px;
 		padding: 50px 0;
 	}
 	.slick-next {
-		right: -10px !important;
+		/* right: -10px !important; */
 	}
 	.slick-prev {
 		left: -10px !important;
@@ -4576,7 +4577,7 @@ font-size: 25px;
 		font-size: 28px;
 	}
 	.slick-next {
-		right: -15px !important;		
+		/* right: -15px !important;		 */
 	}
 	.section-header h2 {
 		font-size: 24px;
@@ -4781,13 +4782,11 @@ font-size: 25px;
 	}
 
 	.cloud-integration-banner h2{
-		font-size: 24px;
-		
-
+		font-size: 24px;	
 	}
 
 	.know-more-btn{
-		font-size: 20px;
+		font-size: 10px;
 		line-height: 20px;
 	}
 
@@ -4898,9 +4897,12 @@ font-size: 25px;
 		height: 40px;
 	}
 	.cloud-slider-cards .card {
-		min-height: 425px;
+		min-height: 470px;
 		display: flex!important;
 		margin-bottom: 0;
+	}
+	.sales_home_card {
+		margin-bottom: 20% !important;
 	}
 	.cloud-slider .card-body {
 		padding: 8px;
@@ -4971,11 +4973,9 @@ font-size: 25px;
 
 
 @media only screen and (max-width:991.98px){
-	.our-partner-slider>.slick-next {
-		right: -20px;
-	}
+	
 	.our-partner-slide>.slick-next{
-		right: -20px;
+		/* right: -20px; */
 	}
 	.our-partner-slider>.slick-prev {
 		left: -25px;
