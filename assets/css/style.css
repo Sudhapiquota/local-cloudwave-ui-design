@@ -2885,6 +2885,9 @@ font-size: 25px;
     margin-left: auto;
     margin-right: auto;
 }
+.banner-section-home>.slick-list{
+	height: 500px ;
+} 
 .slick-track:before,
 .slick-track:after {
     display: table;
@@ -3001,9 +3004,9 @@ font-size: 25px;
     content: 'â†’';
 }
 
-.our-partner-slide>.slick-next{
-	/* right: -50px; */
-}
+/* .our-partner-slide>.slick-next{
+	right: -50px;
+} */
 .our-partner-slider>.slick-prev{
 	left: -50px;
 }
@@ -3140,12 +3143,13 @@ font-size: 25px;
 .banner-section {
     position: relative;
     background: url(../img/home-page/LandingPage01.jpg);
-    background-position: 50% 0;
-    background-size: cover;
+    background-position: bottom;
+    background-size: 100% 500px;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 500px;
     display: flex;
     z-index: 1;
+    height: 500px;
 }
 
 .banner-section-1{
@@ -3156,7 +3160,7 @@ font-size: 25px;
     background-repeat: no-repeat;
     min-height: 700px;
     display: flex;
-    z-index: 1;
+    z-index: 1;	
 }
 
 .banner-section-2{
@@ -3167,7 +3171,7 @@ font-size: 25px;
     background-repeat: no-repeat;
     min-height: 700px;
     display: flex;
-    z-index: 1;
+    z-index: 1;	
 }
 
 .custom-container {
@@ -3189,7 +3193,11 @@ font-size: 25px;
 	font-weight: 300;
 	margin-bottom: 24px;
 }
-
+.font-size-sales{
+	font-size: 25px !important;
+    font-weight: 500 !important;
+    margin-bottom: 35px !important;
+}
 
 .banner-sub-text {
 	color: #3A4965;
@@ -3290,7 +3298,7 @@ font-size: 25px;
 .smartsheet-banner {
 	/* background-color: #15B2D5; */
 	background-image: url(../img/Smartsheet.jpg);
-	background-size: cover;
+	/* background-size: cover; */
     background-repeat: no-repeat;
 }
 .smartsheet-banner .banner-sub-text {
@@ -3346,8 +3354,9 @@ font-size: 25px;
 .cloud-integration-banner {
 	background: #50D4EB;
 	background-image: url(../img/CloudIntegrationServices.jpg);
-	background-size: cover;
+	background-size: 100% 500px;
     background-repeat: no-repeat;
+	height: 500px !important;
 }
 .cloud-integration-banner h2 {
 	font-size: 40px;
@@ -3391,7 +3400,7 @@ font-size: 25px;
 	background: url(../img/Careers.jpg);
 	background-color: #ccc;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 500px;
 	background-position: center;
 }
 .careers-text-section .card .card-title {
@@ -3432,8 +3441,10 @@ font-size: 25px;
 	background: url(../img/MULESOFT.jpg);
 	background-color: #ccc;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 500px;
 	background-position: center;
+	margin-bottom: 50px;
+	padding-top: 25px;
 }
 /*------------------------
 	Salesforce
@@ -3537,31 +3548,32 @@ font-size: 25px;
 .xcavate-section {
 	background: url(../img/XCAVATE.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 500px;
 	background-position: center;
 }
 .sanbox-section {
 	background: url(../img/Sandbox-App.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 500px;
 	background-position: center;
 }
 .salesforce1 {
 	background: url(../img/SALESFORCE.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 500px;
 	background-position: center;
+	padding-top: 65px;
 }
 .partners-section {
 	background:url(../img/PARTNER.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 500px;
 	background-position: center;
 }
 .case-studies-section {
 	background:url(../img/CASESTUDY.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 500px;
 	background-position: center;
 }
 .blog-section {
@@ -3573,31 +3585,31 @@ font-size: 25px;
 	background:url(../img/aboutus.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 500px;
 }
 .news-events-section {
 	background:url(../img/News-Event.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 500px;
 }
 .clients-section {
 	background:url(../img/Clients.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 500px;
 }
 .contact-us-section {
 	background:url(../img/contactus.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 500px; 	
 }
 .azure-section {
 	background:url(../img/azure.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 100% 500px;
 }
 .cursor-text{
 	cursor: pointer;
@@ -3776,6 +3788,9 @@ font-size: 25px;
 		padding-right: 60px;
 	}
 }
+.banner-section-home>.slick-list{
+	height: 450px ;
+} 
 
 @media only screen and (max-width: 1399px) {
 
@@ -3792,7 +3807,7 @@ font-size: 25px;
 	}
 }
 
-@media only screen and (max-width: 1199.98px) {
+@media only screen and (max-width: 1199.98px) {	
 	.header-nav {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -3895,17 +3910,18 @@ font-size: 25px;
 	.cloud-slider h2 {
 		font-size: 23px;
 	}
-	.banner-section {
+	/* .banner-section {
 		min-height: 560px;
-	}
-
+	} */
+/* 
 	.banner-section-1 {
 		min-height: 560px;
 	}
 
 	.banner-section-2 {
 		min-height: 560px;
-	}
+	} */
+	
 
 	.process-section .card-body p {
 		font-size: 28px;
@@ -3917,6 +3933,9 @@ font-size: 25px;
 	.no-code-ui-section p {
 		font-size: 28px;
 	}
+	.banner-section-home>.slick-list{
+		height: 500px ;
+	} 
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -3926,17 +3945,45 @@ font-size: 25px;
 	.benefits-section{
 		padding: 50px 0;
 	}
+	.contact-us-section {	
+		background-size: 100% 450px;
+	}
+	.about-us-section {
+		background-size:100% 500px;
+	}
+	.clients-section {
+	background-size: 100% 450px;
+}
+.careers-section {
+	background-size: 100% 500px;
+}
+
+
+.news-events-section {
+	background-size: 100% 450px;
+}
 	.banner-content h1 {
 	    font-size: 44px;
 	}
 	.banner-section {
-		min-height: 400px;
+		min-height: 450px;
+		padding-left: 50px;
+		padding-right: 50px;
+		height: 450px;
 	}
+	
 	.banner-section-1 {
 		min-height: 400px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 	.banner-section-2 {
 		min-height: 400px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.azure-section {
+		background-size: 100% 450px;
 	}
 	.banner-content h2 {
 	    font-size: 24px;
@@ -4124,7 +4171,7 @@ font-size: 25px;
 		font-size: 24px;
 		margin-bottom: 25px;
 	}
-	.banner-section {
+	/* .banner-section {
 		min-height: 300px;
 	}
 	.banner-section-1 {
@@ -4132,7 +4179,7 @@ font-size: 25px;
 	}
 	.banner-section-2 {
 		min-height: 300px;
-	}
+	} */
 	.section-header h2 {
 		font-size: 34px;
 		margin-bottom: 15px;
@@ -4182,6 +4229,9 @@ font-size: 25px;
 	.job-search .form-control {
 		height: 60px;
 	}
+	.banner-section-home>.slick-list{
+		height: 450px ;
+	} 
 }
 
 @media only screen and (max-width: 849.98px) {
@@ -4315,9 +4365,9 @@ font-size: 25px;
 	.section-features {
 		padding: 50px 0;
 	}
-	.slick-next {
-		/* right: -10px !important; */
-	}
+	/* .slick-next {
+		right: -10px !important;
+	} */
 	.slick-prev {
 		left: -10px !important;
 	}
@@ -4576,9 +4626,9 @@ font-size: 25px;
 	.banner-wrapper .banner-header h1 {
 		font-size: 28px;
 	}
-	.slick-next {
-		/* right: -15px !important;		 */
-	}
+	/* .slick-next {
+		right: -15px !important;		
+	} */
 	.section-header h2 {
 		font-size: 24px;
 	}
@@ -4640,7 +4690,10 @@ font-size: 25px;
 	}
 	.banner-sub-text {
 		font-size: 20px;
-		margin-bottom: 15px;
+		margin-bottom: 15px !important;
+	}
+	.pmb-0{
+		margin-bottom: 1rem;
 	}
 	.banner-section {
 		min-height: 220px;
@@ -4679,7 +4732,7 @@ font-size: 25px;
 		line-height: 30px;
 	}
 	.banner-sub-text {
-		font-size: 16px;
+		font-size: 16px !important;
 	}
 	.contact-us .form-group label {
 		font-size: 18px;
@@ -4717,23 +4770,29 @@ font-size: 25px;
 	}
 
 	.banner-section {
-		padding: 10px 0;
-		background-position: bottom;
-		background-size: contain;
-		background-color: #ededed;
+	padding: 10px 20px;
+    background-position: bottom;
+    background-size: 100% 250px;
+    background-color: #ededed;
+    height: 250px;
 	}
 	.banner-section-1 {
-		padding: 10px 0;
-		background-position: bottom;
-		background-size: contain;
-		background-color: #ededed;
+		padding: 10px 20px;
+    background-position: bottom;
+    background-size: 100% 250px;
+    background-color: #ededed;
+    height: 250px;
 	}
 	.banner-section-2 {
-		padding: 10px 0;
-		background-position: bottom;
-		background-size: contain;
-		background-color: #ededed;
+		padding: 10px 20px;
+    background-position: bottom;
+    background-size: 100% 250px;
+    background-color: #ededed;
+    height: 250px;
 	}
+	.banner-section-home>.slick-list{
+		height: 250px ;
+	} 
 	.arrow-img {
 		width: 50px;
 	}
@@ -4801,6 +4860,8 @@ font-size: 25px;
 
 	.mulisoft-section{
 		width: 100%;
+		background-size: 100% 250px !important;
+		margin-bottom: 0;
 	}
 	.mulisoft-section .banner-text {
 		font-size: 18px;
@@ -4813,7 +4874,10 @@ font-size: 25px;
 		line-height: 22px;
 	}
 	.sales-text-section {
-		padding: 20px 0;
+		padding: 10px 0;
+	}
+	.mtop-sales{
+		padding-top: 45px;
 	}
 	.wdh_100{
 		width: 100%;
@@ -4836,7 +4900,7 @@ font-size: 25px;
 	}
 	.careers-section {
 		background-position: inherit;
-		background-size: cover;
+		background-size: 100% 250px;
 	}
 	.explore-our-product-section {
 		padding: 0 0 20px 0;
@@ -4974,9 +5038,9 @@ font-size: 25px;
 
 @media only screen and (max-width:991.98px){
 	
-	.our-partner-slide>.slick-next{
-		/* right: -20px; */
-	}
+	/* .our-partner-slide>.slick-next{
+		right: -20px;
+	} */
 	.our-partner-slider>.slick-prev {
 		left: -25px;
 	}
@@ -5001,7 +5065,7 @@ font-size: 25px;
 	.cloud-integration-banner {
 		background: #50D4EB;
 		background-image: url(../img/CloudIntegrationServices.jpg);
-		background-size: cover;
+		background-size: 100% 250px;
 		background-repeat: no-repeat;
 	}
 	.copyright-text {
