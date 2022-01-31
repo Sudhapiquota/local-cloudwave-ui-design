@@ -3310,6 +3310,9 @@ font-size: 25px;
 	font-weight: 300;
 	margin-bottom: 40px;
 }
+.m-top-50px{
+	margin-top: 50px;
+}
 .process-section .card-body p {
 	color: #000000;
 	font-size: 30px;
@@ -3534,16 +3537,18 @@ font-size: 25px;
 	color: #26af48;
 }
 .aws-banner {
-	background: url(../img/aws.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+    background: url(../img/aws.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-position: center;
+    padding-top: 20px;
 }
 .google-cloud-platform-section {
 	background: url(../img/GoogleCloudPlatform.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 500px;
 	background-position: center;
+	padding-top: 20px;
 }
 .xcavate-section {
 	background: url(../img/XCAVATE.jpg);
