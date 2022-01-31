@@ -99,9 +99,9 @@ color: #617AB9;
 	.banner-content h1 {
 	    font-size: 44px;
 	}
-	.banner-section {
+	/* .banner-section {
 		min-height: 400px;
-	}
+	} */
 	.banner-content h2 {
 	    font-size: 24px;
 	}
@@ -288,9 +288,9 @@ color: #617AB9;
 		font-size: 24px;
 		margin-bottom: 25px;
 	}
-	.banner-section {
+	/* .banner-section {
 		min-height: 300px;
-	}
+	} */
 	.section-header h2 {
 		font-size: 34px;
 		margin-bottom: 15px;
@@ -752,7 +752,7 @@ color: #617AB9;
 		margin-bottom: 15px;
 	}
 	.banner-section {
-		min-height: 220px;
+		min-height: 250px;
 	}
 	.cloud-service-section {
 		padding: 20px 0;
