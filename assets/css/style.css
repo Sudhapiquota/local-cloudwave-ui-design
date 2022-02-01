@@ -3193,11 +3193,11 @@ font-size: 25px;
 	font-weight: 300;
 	margin-bottom: 24px;
 }
-.font-size-sales{
+/* .font-size-sales{
 	font-size: 25px !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     margin-bottom: 35px !important;
-}
+} */
 
 .banner-sub-text {
 	color: #3A4965;
@@ -3580,6 +3580,7 @@ font-size: 25px;
 	background-repeat: no-repeat;
 	background-size: 100% 500px;
 	background-position: center;
+	margin-bottom: 50px;
 }
 .blog-section {
 	background:url(../img/blog.jpg);
@@ -4698,7 +4699,7 @@ font-size: 25px;
 		margin-bottom: 15px !important;
 	}
 	.pmb-0{
-		margin-bottom: 1rem;
+		margin-bottom: 1rem !important;
 	}
 	.banner-section {
 		min-height: 220px;
@@ -4846,7 +4847,8 @@ font-size: 25px;
 	}
 
 	.cloud-integration-banner h2{
-		font-size: 24px;	
+		font-size: 24px;
+		padding-top: 20px;	
 	}
 
 	.know-more-btn{
@@ -4917,7 +4919,7 @@ font-size: 25px;
 		font-size: 16px;
 	}
 	.case-studies-section {
-		background-position: right;
+		background-position: center;		
 	}
 	.blog-section {
 		background-position: right;
@@ -5072,6 +5074,7 @@ font-size: 25px;
 		background-image: url(../img/CloudIntegrationServices.jpg);
 		background-size: 100% 250px;
 		background-repeat: no-repeat;
+		height: 250px !important;
 	}
 	.copyright-text {
 		text-align: center;
