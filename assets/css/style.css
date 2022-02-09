@@ -2297,7 +2297,7 @@ button.bg-danger:hover {
 }
 
 .togglesearch button {
-	margin-bottom: 8px;
+	margin-bottom: 7px;
 	width: 80px;
 	padding: 5px 0;
 	background: #6179B8;
@@ -2557,9 +2557,11 @@ html.menu-opened body {
 
 
 .breadcrumb-bar a {
- color: #6179B8;
- text-decoration: underline;
+ color: #6179B8; 
 font-size: 25px;
+}
+.breadcrumb-bar a:hover{
+	text-decoration: underline;
 }
 
 .custom_radio {
