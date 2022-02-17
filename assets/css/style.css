@@ -2294,10 +2294,11 @@ button.bg-danger:hover {
 	outline: none;
 	height: 40px;
 	border-radius: 5px 0 0 5px;
+	font-size: 20px;
 }
 
 .togglesearch button {
-	margin-bottom: 7px;
+	margin-bottom: 10px;
 	width: 80px;
 	padding: 5px 0;
 	background: #6179B8;
@@ -3211,12 +3212,12 @@ font-size: 25px;
 	font-size: 20px;
 	color: #3A4965!important;
 	background-color: #F0F2FF;
-	box-shadow: 0px 3px 3px #00000029;
+	box-shadow: 0px 2px 2px #00000029;
 	border-radius: 29px;
 	font-weight: 500;
 }
 .cloud-service-section {
-	padding: 90px 0;
+	padding: 25px 0 0 0;
 	position: relative;
     z-index: 1;
 	background-color: #ffffff;
@@ -3238,18 +3239,20 @@ font-size: 25px;
 	
 }
 .cloud-slider-cards .card {
-	min-height: 700px;
+	min-height: 650px;
 }
 
 
 .cloud-card-content h2 {
-	font-size: 40px;
+	font-size: 30px;
 	color: #3A4965;
 	text-transform: uppercase;
 	margin-bottom: 22px;
 	font-weight: 500;
 }
-
+.mt-7{
+	margin-top: 75px;
+}
 .cloud-slider .card-body {
 	padding: 20px;
 	border-radius: 30px;
@@ -3266,9 +3269,9 @@ font-size: 25px;
 	color: #000;
 	margin-bottom: 40px;
 }
-.explore-our-product-section {
+/* .explore-our-product-section {
 	padding: 0 0 90px 0;
-}
+} */
 .cloud-card-content h3 {
 	font-size: 30px;
 	color: #617AB9;
@@ -3336,12 +3339,12 @@ font-size: 25px;
 }
 .no-code-ui-section {
 	background: #fff;
-	padding: 45px 0;
+	padding: 25px 0;
 }
 .no-code-ui-section h2 {
 	font-size: 40px;
 	color: #617AB9;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	font-weight: 300;
 }
 .no-code-ui-section p {
@@ -3476,7 +3479,7 @@ font-size: 25px;
 	border-radius: 30px;
 }
 .sales-text-section {
-	padding: 45px 0;
+	padding: 25px 0;
 }
 .sales-text-section .know-more-btn {
 	margin-top: 50px;
@@ -5118,5 +5121,7 @@ font-size: 25px;
 	min-height: 35em!important;
 }
 
-
+.btn{
+	padding: 0.75rem;
+}
 
