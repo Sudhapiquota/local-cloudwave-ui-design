@@ -3315,9 +3315,9 @@ font-size: 25px;
 	font-weight: 300;
 	margin-bottom: 40px;
 }
-/* .m-top-50px{
+.m-top-50px{
 	margin-top: 50px;
-} */
+}
 .process-section .card-body p {
 	color: #000000;
 	font-size: 30px;
@@ -3501,6 +3501,7 @@ font-size: 25px;
 	font-size: 30px;
 	font-weight: 500;
 	line-height: 35px;
+	text-align: left;
 }
 .benifits-section {
 	padding: 40px 0;
@@ -4887,6 +4888,9 @@ font-size: 25px;
 	.know-more-btn{
 		font-size: 10px;
 		line-height: 20px;
+	}
+	.mt-7 {
+		margin-top: 0;
 	}
 
 	.mulisoft-content{
