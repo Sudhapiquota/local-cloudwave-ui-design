@@ -3158,23 +3158,25 @@ font-size: 25px;
 .banner-section-1{
 	position: relative;
     background: url(../img/home-page/LandingPage02.jpg);
-    background-position: 50% 0;
-    background-size: cover;
+    background-position: bottom;
+    background-size: 100% 500px;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 500px;
     display: flex;
     z-index: 1;	
+	height: 500px;
 }
 
 .banner-section-2{
 	position: relative;
     background: url(../img/Landing.jpg);
-    background-position: 50% 0;
-    background-size: cover;
+	background-position: bottom;
+    background-size: 100% 500px;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 500px;
     display: flex;
     z-index: 1;	
+	height: 500px;
 }
 
 .custom-container {
