@@ -4811,7 +4811,7 @@ font-size: 25px;
 			padding-top: 65px;
 			height: 250px;
 		}
-		.aws-banner1{
+		/* .aws-banner1{
 			background: url(../img/aws-responsive1.jpg);
 			background-repeat: no-repeat;
 			background-size: 100% 250px;
@@ -4819,11 +4819,11 @@ font-size: 25px;
 			padding-top: 65px;
 			height: 250px;
 			margin-top: 30px;
-		}
-		.aws-banner  {
+		} */
+		/* .aws-banner  {
 			background: none;
 			background-color: white !important ;
-		}
+		} */
 	.banner-section {
 	padding: 10px 20px;
     background-position: bottom;
@@ -4933,7 +4933,7 @@ font-size: 25px;
 		line-height: 22px;
 	}
 	.sales-text-section {
-		padding: 10px 0;
+		padding: 0 !important;
 	}
 	
 	.wdh_100{
