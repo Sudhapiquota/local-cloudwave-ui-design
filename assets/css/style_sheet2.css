@@ -1,6 +1,8 @@
 
 .our_services-ul {
     list-style: none;
+	font-size: 22px;
+	color: #000;
 }
 
 .our_services-ul li::before 

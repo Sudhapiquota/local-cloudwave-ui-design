@@ -3317,6 +3317,18 @@ font-size: 25px;
 	font-weight: 300;
 	margin-bottom: 40px;
 }
+
+.xcavate-li{
+	font-size: 24px;
+	color: #000;
+	list-style-type: none;
+}
+
+.you-tube-size{
+	width: 100%;
+	height: 50%;
+}
+
 .m-top-50px{
 	margin-top: 50px;
 }
@@ -4533,6 +4545,7 @@ font-size: 25px;
 	.f-size{
 		font-size: 1.75rem;
 	}
+	
 	.real-img-flex{
 		display: flex;
 		justify-content: center;
