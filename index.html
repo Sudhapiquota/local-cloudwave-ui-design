@@ -274,7 +274,7 @@
 										<div class="cloud-card-content">
 											<h2>Microsoft Azure</h2>
 											<p>Get global reach with local presence by building, deploying and managing applications in the cloud or on-premise and ensure seamless innovation anywhere with Azure.</p>
-											<img src="assets/img/cloud-service/img-1.png" alt="" class="img-fluid">
+											<img src="assets/img/partners/img-8.png" alt="" class="img-fluid">
 										</div>
 									</div>
 									<div class="card-footer border-0">
@@ -585,11 +585,14 @@
 	<script>
 
 		$('.cloud-slider').slick({
-			dots: false,
-			infinite: false,
+			dots: true,
+			infinite: true,
 			speed: 300,
 			slidesToShow: 2,
 			slidesToScroll: 2,
+			arrow: false,
+			autoplay:true,
+			autoplaySpeed: 2000,
 			responsive: [
 				{
 					breakpoint: 1024,
@@ -597,21 +600,26 @@
 						slidesToShow: 2,
 						slidesToScroll: 2,
 						infinite: true,
-						dots: false
+						dots: true,
+						arrow:false
 					}
 				},
 				{
 					breakpoint: 600,
 					settings: {
 						slidesToShow: 1,
-						slidesToScroll: 1
+						slidesToScroll: 1,
+						dots: true,
+						arrow:false
 					}
 				},
 				{
 					breakpoint: 480,
 					settings: {
 						slidesToShow: 1,
-						slidesToScroll: 1
+						slidesToScroll: 1,
+						dots: true,
+						arrow:false
 					}
 				}
 				// You can unslick at a given breakpoint now by adding:
@@ -625,16 +633,16 @@
 			var currentSlide = $('.cloud-slider').slick('slickCurrentSlide');
 			if (currentSlide == 0) {
 				$('.cloud-slider .slick-prev').hide();
-				$('.cloud-slider .slick-next').show();
+				$('.cloud-slider .slick-next').hide();
 			}
 			else if (currentSlide == 2) {
 				$('.cloud-slider .slick-next').hide();
-				$('.cloud-slider .slick-prev').show();
+				$('.cloud-slider .slick-prev').hide();
 			}
 
 			if (currentSlide > 0 && currentSlide < 2) {
-				$('.cloud-slider .slick-prev').show();
-				$('.cloud-slider .slick-next').show();
+				$('.cloud-slider .slick-prev').hide();
+				$('.cloud-slider .slick-next').hide();
 			}
 
 		});

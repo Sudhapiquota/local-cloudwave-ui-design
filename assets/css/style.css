@@ -2985,6 +2985,12 @@ font-size: 25px;
     /* left: 0; */
     z-index: 1;
 }
+.cloud-slider .slick-prev{
+	display: none !important;
+}
+.cloud-slider .slick-next{
+	display: none !important;
+}
 [dir='rtl'] .slick-prev {
     right: -25px;
     left: auto;
@@ -3109,24 +3115,24 @@ font-size: 25px;
     opacity: .25;
     color: black;
 	border-radius: 50%;
-	background: #2F0398;
+	background: #617AB9;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li:nth-child(2) button:before {
-    background: #6A1B9A;
+    background: #617AB9;
 }
 .slick-dots li:nth-child(3) button:before {
-    background: #EE2C4D;
+    background: #617AB9;
 }
 .slick-dots li:nth-child(4) button:before {
-    background: #0A6049;
+    background: #617AB9;
 }
 .slick-dots li:nth-child(5) button:before {
-    background: #BE9355;
+    background: #617AB9;
 }
 .slick-dots li:nth-child(6) button:before {
-    background: #1969C7;
+    background:#617AB9;
 }
 .slick-dots li.slick-active button:before
 {
