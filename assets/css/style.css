@@ -3533,6 +3533,13 @@ font-size: 25px;
 .text-light-blue {
 	color:#617AB9
 }
+.text-light-blue1 {
+	color:#617AB9;
+	text-decoration: underline;
+}
+/* .text-light-blue1:hover{
+	text-decoration: underline;
+} */
 /*-----------------
 	contact us
 -----------------------*/
