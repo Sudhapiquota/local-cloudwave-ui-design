@@ -107,8 +107,8 @@
 							<li class="searchbar">
 								<i class="fa fa-search" aria-hidden="true"></i>
 								<div class="togglesearch">
-                                    <form action="search.html">
-                                        <input type="text" placeholder="" class="top-search">
+									<form id="lunrSearchForm" name="lunrSearchForm" action="search.html">
+                                        <input name="q" type="text" placeholder="" class="top-search">
                                         <button class="btn btn-toogle">Search</button>
                                     </form>
 								</div>
@@ -136,6 +136,22 @@
 			<!-- Page Content -->
 			<div class="content pt-0">
 
+
+
+
+<!-- <form id="lunrSearchForm" name="lunrSearchForm">
+		<input class="search-input" name="q" placeholder="Enter search term" type="text"> <input type="submit" value="Search">
+	</form>
+	<div class="loading" id="loading-div">
+		<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+		<span class="sr-only">Loading...</span>
+	</div>
+	<p>Search results will be written below:</p>-->
+	
+	
+	
+	
+	
                 <!--Section-->
                 <div class="explore-our-product-section mt-lg-5 mt-md-4 mt-3">
                     <div class="container-fluid">
@@ -143,6 +159,11 @@
                             
                             <div class="col-md-12">
                                 <div class="row ">
+									<div class="col-md-12">
+									<div class="resultCount" id="resultCount"></div>
+									</div>
+									<div id="searchResults"></div> 
+<!-- 
                                     <div class="col-md-12">
                                         <div class="section-header">
                                             <h2><span>Search Results for: Cloud</span> </h2>
@@ -155,6 +176,8 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 mt-lg-5 mt-md-4 mt-3">
+
+										
                                         <div class="section-header">
                                             <h4 class="banner-sub-text text-light-blue font-weight-bold">CloudWave Partners with Smartsheet to deliver Enterprise Integration Services to Smartsheet Customers</h4>
                                             <span class="mt-lg-5 mt-md-4 mt-3"><b>Posted on April 23, 2021By Neeraja Raghavan</b></span>
@@ -203,7 +226,7 @@
                                             <p class="text-dark">Add Your Heading Text Here CloudWave Partners with Smartsheet to deliver Enterprise Integration Services to Smartsheet Customers CloudWave is a global leader in cloud strategy, application development & integrations in the cloud solution arena; today announced its official partnership with Smartsheet, the enterprise platform for dynamic work.Cloudwave is a proven cloud solutions partner focusing on […]</p>
                                             
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -259,7 +282,10 @@
 		
 		<!-- Slick JS -->
         <script src="assets/js/slick.js"></script>
-
+<!-- search JS -->
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+		<script src="assets/js/lunr_index.js"></script>
+		<script src="assets/js/lunrclient.js"></script>
 		<!-- Custom JS -->
 		<script src="assets/js/header.js"></script>
 		<script src="assets/js/script.js"></script>
