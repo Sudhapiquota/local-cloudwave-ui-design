@@ -1,4 +1,32 @@
+.qualtrics{
+	position: relative;
+    background-color: #7F7F7F;
+    background-position: bottom;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    z-index: 1;
+    height: 500px;
+}
+.bg-qualtrics{
+	background-color: #E7F9FF;
+	padding: 50px;
+}
+.qualtrics-pd{
+	padding: 0 50px;
+}
 
+.qualtrics-li>ul{
+	list-style-position: outside;
+	list-style-type: square;
+	font-size: 24px;
+}
+
+.qualtrics-li{
+	list-style-type: square;
+	font-size: 24px;	
+}
 .our_services-ul {
     list-style: none;
 	font-size: 22px;
