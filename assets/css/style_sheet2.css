@@ -267,7 +267,7 @@ color: #617AB9;
 		display: inline-block;
 	}
 	.searchbar {
-		display: none;
+		display:inline;
 	}
 	
 	.sc-btn {
