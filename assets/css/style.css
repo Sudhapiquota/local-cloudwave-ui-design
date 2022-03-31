@@ -3160,6 +3160,9 @@ font-size: 25px;
     z-index: 1;
     height: 500px;
 }
+/* .img-r{
+		display: inline;
+} */
 
 .banner-section-1{
 	position: relative;
@@ -3846,6 +3849,9 @@ font-size: 25px;
 } 
 
 @media only screen and (max-width: 1399px) {
+	/* .img-r{
+		display: none;	
+	} */
 
 	.row.row-grid {
 		margin-left: -8px;
@@ -3861,6 +3867,9 @@ font-size: 25px;
 }
 
 @media only screen and (max-width: 1199.98px) {	
+	/* .img-r{
+		display: none;
+	} */
 	.header-nav {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -3991,7 +4000,7 @@ font-size: 25px;
 	} 
 }
 
-@media only screen and (max-width: 991.98px) {
+@media only screen and (max-width: 991.98px) {	
 	.banner-content {
 	    padding: 20px;
 	}
@@ -4023,6 +4032,7 @@ font-size: 25px;
 		padding-left: 50px;
 		padding-right: 50px;
 		height: 450px;
+		/* background-image: url("../img/home-page/LandingPage01R.jpg"); */
 	}
 	
 	.banner-section-1 {
