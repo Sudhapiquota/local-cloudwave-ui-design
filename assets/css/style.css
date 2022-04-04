@@ -2889,7 +2889,7 @@ font-size: 25px;
     margin-right: auto;
 }
 .banner-section-home>.slick-list{
-	height: 500px ;
+	height: auto ;
 } 
 .slick-track:before,
 .slick-track:after {
@@ -3384,25 +3384,25 @@ font-size: 25px;
 ------------------------------------*/
 .cloud-integration-banner {
 	background: #50D4EB;
-	background-image: url(../img/CloudIntegrationServices.jpg);
+	background-image: url(../img/responsive-banner/CloudIntegrationServices.jpg);
 	background-size: 100% 500px;
     background-repeat: no-repeat;
 	height: 500px !important;
 }
 .cloud-integration-banner h2 {
 	font-size: 40px;
-	color: #FFFFFF;
+	color: #6179B8 !important;
 	font-weight: 300;
 	margin-bottom: 0;
 }
 .cloud-integration-banner h4 {
 	font-size: 60px;
-	color: #FFFFFF;
+	/* color: #FFFFFF; */
 	font-weight: 300;
 	margin-bottom: 25px;
 }
 .banner-section {
-	padding: 90px 0;
+	padding: 90px 0 0;
 }
 .banner-section-1 {
 	padding: 90px 0;
@@ -3477,6 +3477,23 @@ font-size: 25px;
 	margin-bottom: 50px;
 	padding-top: 25px;
 }
+
+
+@media (max-width: 992px){
+	.banner-section{
+		height: auto !important;
+		background: #fff !important;
+	}
+	.display-none-img{
+		display: block !important;
+	}
+	.banner-text-main{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
 /*------------------------
 	Salesforce
 ----------------------------*/
@@ -3599,7 +3616,7 @@ font-size: 25px;
 	background-position: center;
 }
 .salesforce1 {
-	background: url(../img/SALESFORCE.jpg);
+	background: url(../img/responsive-banner/SALESFORCE.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 500px;
 	background-position: center;
@@ -3704,6 +3721,9 @@ font-size: 25px;
 	}
 }
 @media (min-width: 992px) {
+	.display-none-img{
+		display: none;
+	}
 	.container {
 	    max-width: 1440px;
 	}
@@ -3845,7 +3865,7 @@ font-size: 25px;
 	}
 }
 .banner-section-home>.slick-list{
-	height: 450px ;
+	height: auto ;
 } 
 
 @media only screen and (max-width: 1399px) {
@@ -4028,22 +4048,29 @@ font-size: 25px;
 	    font-size: 44px;
 	}
 	.banner-section {
-		min-height: 450px;
+		min-height: auto;
 		padding-left: 50px;
 		padding-right: 50px;
-		height: 450px;
+		height: auto;
+		background: none;
 		/* background-image: url("../img/home-page/LandingPage01R.jpg"); */
 	}
 	
 	.banner-section-1 {
-		min-height: 400px;
+		min-height: auto;
 		padding-left: 50px;
 		padding-right: 50px;
+		background: none;
+		height: auto;
+		/* background-color: #EDEDED; */
 	}
 	.banner-section-2 {
-		min-height: 400px;
+		min-height: auto;
 		padding-left: 50px;
 		padding-right: 50px;
+		background: none;
+		height: auto;
+		/* background-color: #ededed; */
 	}
 	.azure-section {
 		background-size: 100% 450px;
@@ -4293,7 +4320,7 @@ font-size: 25px;
 		height: 60px;
 	}
 	.banner-section-home>.slick-list{
-		height: 450px ;
+		height:auto ;
 	} 
 }
 
@@ -4308,6 +4335,9 @@ font-size: 25px;
 @media only screen and (max-width: 767.98px)
 
  {
+	.banner-section-home>.slick-list{
+		height: 595px ;
+	} 
 	h1,
 	.h1 {
 		font-size: 2rem;
@@ -4760,7 +4790,7 @@ font-size: 25px;
 		margin-bottom: 1rem !important;
 	}
 	.banner-section {
-		min-height: 220px;
+		min-height: auto;
 	}
 	.banner-section-1 {
 		min-height: 220px;
@@ -4862,28 +4892,27 @@ font-size: 25px;
 			background-color: white !important ;
 		} */
 	.banner-section {
-	padding: 10px 20px;
+	padding: 25px 20px;
     background-position: bottom;
-    background-size: 100% 250px;
-    background-color: #ededed;
-    height: 250px;
+    background-size: 100% 250px;    
+    height: auto;
 	}
 	.banner-section-1 {
-		padding: 10px 20px;
+	padding: 25px 20px;
     background-position: bottom;
     background-size: 100% 250px;
-    background-color: #ededed;
-    height: 250px;
+    /* background-color: #ededed; */
+    height: auto;
 	}
 	.banner-section-2 {
-		padding: 10px 20px;
+		padding: 25px 20px;
     background-position: bottom;
     background-size: 100% 250px;
-    background-color: #ededed;
-    height: 250px;
+    /* background-color: #ededed; */
+    height: auto;
 	}
 	.banner-section-home>.slick-list{
-		height: 250px ;
+		height: auto ;
 	} 
 	.arrow-img {
 		width: 50px;
