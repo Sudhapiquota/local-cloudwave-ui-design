@@ -2982,7 +2982,7 @@ font-size: 25px;
     -moz-osx-font-smoothing: grayscale;
 }
 .slick-prev {
-    /* left: 0; */
+    left: 0;
     z-index: 1;
 }
 .cloud-slider .slick-prev{
@@ -3483,12 +3483,15 @@ font-size: 25px;
 	.banner-section{
 		height: auto !important;
 		background: #fff !important;
+		padding: 0 !important;
 	}
 	.display-none-img{
 		display: block !important;
+		padding: 0!important;
 	}
 	.banner-text-main{
-		margin-top: 25px;		
+		margin-top: 25px;	
+		margin-bottom: 5px;	
 	}
 }
 
