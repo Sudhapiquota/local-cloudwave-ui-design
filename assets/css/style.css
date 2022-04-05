@@ -3013,12 +3013,12 @@ font-size: 25px;
     content: 'â†’';
 }
 
-/* .our-partner-slide>.slick-next{
-	right: -50px;
-} */
-.our-partner-slider>.slick-prev{
+/* .our-partner-slide>.slick-prev{
 	left: -50px;
 }
+.our-partner-slider>.slick-prev{
+	left: -50px;
+} */
 .slick-next {
     /* right: -35px; */
 	right: 0px!important;
@@ -3307,7 +3307,11 @@ font-size: 25px;
 .cloud-card-content img {
 	margin: 0 auto;
 }
-
+.img-fluid-w{
+	max-width: 75%;
+	height: auto;
+	padding-left: 50px;
+}
 /*-------------------
 	smartsheet
 ------------------**/
@@ -3492,6 +3496,7 @@ font-size: 25px;
 	.banner-text-main{
 		margin-top: 25px;	
 		margin-bottom: 5px;	
+		padding-left: 75px;
 	}
 }
 
@@ -5166,9 +5171,9 @@ font-size: 25px;
 	/* .our-partner-slide>.slick-next{
 		right: -20px;
 	} */
-	.our-partner-slider>.slick-prev {
+	/* .our-partner-slider>.slick-prev {
 		left: -25px;
-	}
+	} */
 }
 
 
